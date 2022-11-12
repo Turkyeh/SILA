@@ -26,7 +26,7 @@ Route::get('/login', function () {
 });
 
 Route::get('/index', function () {
-    return view('index');
+    return view('.index');
 });
 
 Route::get('/about', function () {
@@ -41,3 +41,11 @@ Route::get('/Post', function () {
     return view('Post');
 });
 
+Route::get('/countact', function () {
+    return view('countact');
+});
+
+
+Route::get('/Advice', function () {
+    return view('Advice');
+});

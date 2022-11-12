@@ -25,9 +25,61 @@
     <link rel="alternate" type="application/rss+xml" title="Lilo &raquo; Comments Feed"
         href="https://lilo.qodeinteractive.com/comments/feed/" />
     <script type="text/javascript">
-        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/lilo.qodeinteractive.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.3" } };
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/lilo.qodeinteractive.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.3"
+            }
+        };
         /*! This file is auto-generated */
-        !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode, e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL()); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji))) }(window, document, window._wpemojiSettings);
+        ! function(e, a, t) {
+            var n, r, o, i = a.createElement("canvas"),
+                p = i.getContext && i.getContext("2d");
+
+            function s(e, t) {
+                var a = String.fromCharCode,
+                    e = (p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0), i.toDataURL());
+                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+            }
+
+            function c(e) {
+                var t = a.createElement("script");
+                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+            }
+            for (o = Array("flag", "emoji"), t.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+                if (!p || !p.fillText) return !1;
+                switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+                    case "flag":
+                        return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([
+                            55356, 56826, 55356, 56819
+                        ], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418,
+                            56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447
+                        ], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203,
+                            56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447
+                        ]);
+                    case "emoji":
+                        return !s([129777, 127995, 8205, 129778, 127999], [129777, 127995, 8203, 129778, 127999])
+                }
+                return !1
+            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports
+                .everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t
+                .readyCallback = function() {
+                    t.DOMReady = !0
+                }, t.supports.everything || (n = function() {
+                    t.readyCallback()
+                }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !
+                    1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+                    "complete" === a.readyState && t.readyCallback()
+                })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
+                    .wpemoji)))
+        }(window, document, window._wpemojiSettings);
     </script>
     <style type="text/css">
         img.wp-smiley,
@@ -404,14 +456,17 @@
     <link rel='stylesheet' id='js_composer_front-css'
         href='https://lilo.qodeinteractive.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.10.0'
         type='text/css' media='all' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type='text/javascript' src='https://lilo.qodeinteractive.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0'
         id='jquery-core-js'></script>
     <script type='text/javascript'
-        src='https://lilo.qodeinteractive.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2'
-        id='jquery-migrate-js'></script>
+        src='https://lilo.qodeinteractive.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'>
+    </script>
     <script type='text/javascript'
-        src='https://lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.5'
-        async id='tp-tools-js'></script>
+        src='https://lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.5' async
+        id='tp-tools-js'></script>
     <script type='text/javascript'
         src='https://lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.5' async
         id='revmin-js'></script>
@@ -420,8 +475,15 @@
         id='jquery-blockui-js'></script>
     <script type='text/javascript' id='wc-add-to-cart-js-extra'>
         /* <![CDATA[ */
-        var wc_add_to_cart_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/lilo.qodeinteractive.com\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
-/* ]]> */
+        var wc_add_to_cart_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+            "i18n_view_cart": "View cart",
+            "cart_url": "https:\/\/lilo.qodeinteractive.com\/cart\/",
+            "is_cart": "",
+            "cart_redirect_after_add": "no"
+        };
+        /* ]]> */
     </script>
     <script type='text/javascript'
         src='https://lilo.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.0.0'
@@ -437,7 +499,8 @@
         id='vc_woocommerce-add-to-cart-js-js'></script>
     <link rel="https://api.w.org/" href="https://lilo.qodeinteractive.com/wp-json/" />
     <link rel="alternate" type="application/json" href="https://lilo.qodeinteractive.com/wp-json/wp/v2/pages/6" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://lilo.qodeinteractive.com/xmlrpc.php?rsd" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD"
+        href="https://lilo.qodeinteractive.com/xmlrpc.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml"
         href="https://lilo.qodeinteractive.com/wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WooCommerce 7.0.0" />
@@ -450,17 +513,27 @@
 
 
     <script data-cfasync="false" data-pagespeed-no-defer>
-        var dataLayer_content = { "pagePostType": "frontpage", "pagePostType2": "single-page", "pagePostAuthor": "admin" };
+        var dataLayer_content = {
+            "pagePostType": "frontpage",
+            "pagePostType2": "single-page",
+            "pagePostAuthor": "admin"
+        };
         dataLayer.push(dataLayer_content);
     </script>
     <script data-cfasync="false">
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    '//www.googletagmanager.com/gtm.' + 'js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '//www.googletagmanager.com/gtm.' + 'js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-KTQ2BTD');
     </script>
 
@@ -474,7 +547,8 @@
 
     <link rel="icon" href="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/cropped-favicon-32x32.png"
         sizes="32x32" />
-    <link rel="icon" href="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/cropped-favicon-192x192.png"
+    <link rel="icon"
+        href="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/cropped-favicon-192x192.png"
         sizes="192x192" />
     <link rel="apple-touch-icon"
         href="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/cropped-favicon-180x180.png" />
@@ -577,7 +651,8 @@
                                                                 <a href="https://lilo.qodeinteractive.com/little-heroes/"
                                                                     class=""><span class="item_outer"><span
                                                                             class="item_text">
-                                                                            Home</span></span></a></li>
+                                                                            Home</span></span></a>
+                                                            </li>
                                                             <li id="nav-menu-item-1432"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                 <a href="https://lilo.qodeinteractive.com/landing/"
@@ -600,14 +675,16 @@
                                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                 <a href="https://lilo.qodeinteractive.com/about-us/"
                                                                     class=""><span class="item_outer"><span
-                                                                            class="item_text">About Us</span></span></a>
+                                                                            class="item_text">About
+                                                                            Us</span></span></a>
                                                             </li>
                                                             <li id="nav-menu-item-637"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                 <a href="https://lilo.qodeinteractive.com/meet-the-team/"
                                                                     class=""><span class="item_outer"><span
-                                                                            class="item_text">Meet the
-                                                                            Team</span></span></a></li>
+                                                                            class="item_text">Countact
+                                                                            us</span></span></a>
+                                                            </li>
 
                                                             <li id="nav-menu-item-728"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-page ">
@@ -634,53 +711,56 @@
                                                                 <a href="https://lilo.qodeinteractive.com/left-sidebar/"
                                                                     class=""><span class="item_outer"><span
                                                                             class="item_text">Left
-                                                                            Sidebar</span></span></a></li>
-                                                            <li id="nav-menu-item-1662"
-                                                                class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                                <a href="https://lilo.qodeinteractive.com/no-sidebar/"
-                                                                    class=""><span class="item_outer"><span
-                                                                            class="item_text">No
-                                                                            Sidebar</span></span></a></li>
+                                                                            Sidebar</span></span></a>
+                                                            </li>
+
                                                             <li id="nav-menu-item-1664"
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-                                                                <a href="#" class=""><span class="item_outer"><span
+                                                                <a href="#" class=""><span
+                                                                        class="item_outer"><span
                                                                             class="item_text">Post
                                                                             Types</span></span></a>
                                                                 <ul>
                                                                     <li id="nav-menu-item-954"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-post ">
                                                                         <a href="https://lilo.qodeinteractive.com/parents-tomorrow/"
-                                                                            class=""><span class="item_outer"><span
+                                                                            class=""><span
+                                                                                class="item_outer"><span
                                                                                     class="item_text">Standard</span></span></a>
                                                                     </li>
                                                                     <li id="nav-menu-item-1653"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-post ">
                                                                         <a href="https://lilo.qodeinteractive.com/feeding-baby/"
-                                                                            class=""><span class="item_outer"><span
+                                                                            class=""><span
+                                                                                class="item_outer"><span
                                                                                     class="item_text">Gallery</span></span></a>
                                                                     </li>
                                                                     <li id="nav-menu-item-1654"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-post ">
                                                                         <a href="https://lilo.qodeinteractive.com/happy-baby-happy-parents-happy-agency/"
-                                                                            class=""><span class="item_outer"><span
+                                                                            class=""><span
+                                                                                class="item_outer"><span
                                                                                     class="item_text">Link</span></span></a>
                                                                     </li>
                                                                     <li id="nav-menu-item-1655"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-post ">
                                                                         <a href="https://lilo.qodeinteractive.com/baby-shower-ideas/"
-                                                                            class=""><span class="item_outer"><span
+                                                                            class=""><span
+                                                                                class="item_outer"><span
                                                                                     class="item_text">Quote</span></span></a>
                                                                     </li>
                                                                     <li id="nav-menu-item-1656"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-post ">
                                                                         <a href="https://lilo.qodeinteractive.com/cause-and-effect/"
-                                                                            class=""><span class="item_outer"><span
+                                                                            class=""><span
+                                                                                class="item_outer"><span
                                                                                     class="item_text">Video</span></span></a>
                                                                     </li>
                                                                     <li id="nav-menu-item-1657"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-post ">
                                                                         <a href="https://lilo.qodeinteractive.com/activities-for-baby/"
-                                                                            class=""><span class="item_outer"><span
+                                                                            class=""><span
+                                                                                class="item_outer"><span
                                                                                     class="item_text">Audio</span></span></a>
                                                                     </li>
                                                                 </ul>
@@ -702,35 +782,42 @@
                                                                 <a href="https://lilo.qodeinteractive.com/shop/"
                                                                     class=""><span class="item_outer"><span
                                                                             class="item_text">Product
-                                                                            List</span></span></a></li>
+                                                                            List</span></span></a>
+                                                            </li>
                                                             <li id="nav-menu-item-952"
                                                                 class="menu-item menu-item-type-post_type menu-item-object-product ">
                                                                 <a href="https://lilo.qodeinteractive.com/product/monkey/"
                                                                     class=""><span class="item_outer"><span
                                                                             class="item_text">Product
-                                                                            Single</span></span></a></li>
+                                                                            Single</span></span></a>
+                                                            </li>
                                                             <li id="nav-menu-item-1772"
                                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-                                                                <a href="#" class=""><span class="item_outer"><span
+                                                                <a href="#" class=""><span
+                                                                        class="item_outer"><span
                                                                             class="item_text">Shop
                                                                             Pages</span></span></a>
                                                                 <ul>
                                                                     <li id="nav-menu-item-1330"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                         <a href="https://lilo.qodeinteractive.com/my-account/"
-                                                                            class=""><span class="item_outer"><span
+                                                                            class=""><span
+                                                                                class="item_outer"><span
                                                                                     class="item_text">My
-                                                                                    Account</span></span></a></li>
+                                                                                    Account</span></span></a>
+                                                                    </li>
                                                                     <li id="nav-menu-item-1332"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                         <a href="https://lilo.qodeinteractive.com/cart/"
-                                                                            class=""><span class="item_outer"><span
+                                                                            class=""><span
+                                                                                class="item_outer"><span
                                                                                     class="item_text">Cart</span></span></a>
                                                                     </li>
                                                                     <li id="nav-menu-item-1331"
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                         <a href="https://lilo.qodeinteractive.com/checkout/"
-                                                                            class=""><span class="item_outer"><span
+                                                                            class=""><span
+                                                                                class="item_outer"><span
                                                                                     class="item_text">Checkout</span></span></a>
                                                                     </li>
                                                                 </ul>
@@ -742,7 +829,7 @@
 
 
 
-                                             <li id="nav-menu-item-788"
+                                            <li id="nav-menu-item-788"
                                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
                                                 <a href="#" class=""><span class="item_outer"><span
                                                             class="item_text">Stories</span><i
@@ -760,7 +847,7 @@
                                         class="widget_text widget widget_custom_html mkdf-header-widget-menu-area">
                                         <div class="textwidget custom-html-widget"><span style=\"font-family: Baloo;
                                                 color: #ff6f96; font-size: 20px;\">Call us<a href="tel:+0962778083578">
-                                                   +0962778083578</a> </span></div>
+                                                    +0962778083578</a> </span></div>
                                     </div>
                                     <a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover mkdf-social-icon-circle mkdf-social-icon-switch"
                                         data-hover-color="#ffffff"
@@ -806,7 +893,8 @@
                                             <ul id="menu-main-menu-navigation-1" class="clearfix">
                                                 <li id="sticky-nav-menu-item-631"
                                                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children mkdf-active-item has_sub narrow">
-                                                    <a href="#" class=" current "><span class="item_outer"><span
+                                                    <a href="#" class=" current "><span
+                                                            class="item_outer"><span
                                                                 class="item_text">Home</span><span
                                                                 class="plus"></span><i
                                                                 class="mkdf-menu-arrow fa fa-angle-down"></i></span></a>
@@ -817,22 +905,26 @@
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item ">
                                                                     <a href="https://lilo.qodeinteractive.com/"
                                                                         class=""><span class="item_outer"><span
-                                                                                class="item_text">Cutie Pies</span><span
-                                                                                class="plus"></span></span></a></li>
+                                                                                class="item_text">Cutie
+                                                                                Pies</span><span
+                                                                                class="plus"></span></span></a>
+                                                                </li>
                                                                 <li id="sticky-nav-menu-item-633"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                     <a href="https://lilo.qodeinteractive.com/little-heroes/"
                                                                         class=""><span class="item_outer"><span
                                                                                 class="item_text">Little
                                                                                 Heroes</span><span
-                                                                                class="plus"></span></span></a></li>
+                                                                                class="plus"></span></span></a>
+                                                                </li>
 
                                                                 <li id="sticky-nav-menu-item-1432"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                     <a href="https://lilo.qodeinteractive.com/landing/"
                                                                         class=""><span class="item_outer"><span
                                                                                 class="item_text">Landing</span><span
-                                                                                class="plus"></span></span></a></li>
+                                                                                class="plus"></span></span></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -851,41 +943,40 @@
                                                                     <a href="https://lilo.qodeinteractive.com/about-us/"
                                                                         class=""><span class="item_outer"><span
                                                                                 class="item_text">About Us</span><span
-                                                                                class="plus"></span></span></a></li>
+                                                                                class="plus"></span></span></a>
+                                                                </li>
                                                                 <li id="sticky-nav-menu-item-637"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                     <a href="https://lilo.qodeinteractive.com/meet-the-team/"
                                                                         class=""><span class="item_outer"><span
                                                                                 class="item_text">Meet the
                                                                                 Team</span><span
-                                                                                class="plus"></span></span></a></li>
+                                                                                class="plus"></span></span></a>
+                                                                </li>
                                                                 <li id="sticky-nav-menu-item-636"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                     <a href="https://lilo.qodeinteractive.com/our-caregivers/"
                                                                         class=""><span class="item_outer"><span
                                                                                 class="item_text">Our
                                                                                 Caregivers</span><span
-                                                                                class="plus"></span></span></a></li>
+                                                                                class="plus"></span></span></a>
+                                                                </li>
                                                                 <li id="sticky-nav-menu-item-640"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                     <a href="https://lilo.qodeinteractive.com/our-services/"
                                                                         class=""><span class="item_outer"><span
                                                                                 class="item_text">Our
                                                                                 Services</span><span
-                                                                                class="plus"></span></span></a></li>
+                                                                                class="plus"></span></span></a>
+                                                                </li>
                                                                 <li id="sticky-nav-menu-item-728"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                     <a href="https://lilo.qodeinteractive.com/gallery/"
                                                                         class=""><span class="item_outer"><span
                                                                                 class="item_text">Gallery</span><span
-                                                                                class="plus"></span></span></a></li>
-                                                                <li id="sticky-nav-menu-item-638"
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                                    <a href="https://lilo.qodeinteractive.com/get-in-touch/"
-                                                                        class=""><span class="item_outer"><span
-                                                                                class="item_text">Get In
-                                                                                Touch</span><span
-                                                                                class="plus"></span></span></a></li>
+                                                                                class="plus"></span></span></a>
+                                                                </li>
+
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -899,71 +990,68 @@
                                                     <div class="second">
                                                         <div class="inner">
                                                             <ul>
-                                                                <li id="sticky-nav-menu-item-963"
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                                    <a href="https://lilo.qodeinteractive.com/blog-standard/"
-                                                                        class=""><span class="item_outer"><span
-                                                                                class="item_text">Right
-                                                                                Sidebar</span><span
-                                                                                class="plus"></span></span></a></li>
+
                                                                 <li id="sticky-nav-menu-item-1663"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                     <a href="https://lilo.qodeinteractive.com/left-sidebar/"
                                                                         class=""><span class="item_outer"><span
-                                                                                class="item_text">Left
-                                                                                Sidebar</span><span
-                                                                                class="plus"></span></span></a></li>
-                                                                <li id="sticky-nav-menu-item-1662"
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
-                                                                    <a href="https://lilo.qodeinteractive.com/no-sidebar/"
-                                                                        class=""><span class="item_outer"><span
-                                                                                class="item_text">No Sidebar</span><span
-                                                                                class="plus"></span></span></a></li>
+                                                                                class="item_text">Advice</span><span
+                                                                                class="plus"></span></span></a>
+                                                                </li>
+
                                                                 <li id="sticky-nav-menu-item-1664"
                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-                                                                    <a href="#" class=""><span class="item_outer"><span
-                                                                                class="item_text">Post Types</span><span
+                                                                    <a href="#" class=""><span
+                                                                            class="item_outer"><span
+                                                                                class="item_text">Post
+                                                                                Types</span><span
                                                                                 class="plus"></span></span></a>
                                                                     <ul>
                                                                         <li id="sticky-nav-menu-item-954"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-post ">
                                                                             <a href="https://lilo.qodeinteractive.com/parents-tomorrow/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Standard</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1653"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-post ">
                                                                             <a href="https://lilo.qodeinteractive.com/feeding-baby/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Gallery</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1654"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-post ">
                                                                             <a href="https://lilo.qodeinteractive.com/happy-baby-happy-parents-happy-agency/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Link</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1655"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-post ">
                                                                             <a href="https://lilo.qodeinteractive.com/baby-shower-ideas/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Quote</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1656"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-post ">
                                                                             <a href="https://lilo.qodeinteractive.com/cause-and-effect/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Video</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1657"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-post ">
                                                                             <a href="https://lilo.qodeinteractive.com/activities-for-baby/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Audio</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
@@ -988,24 +1076,29 @@
                                                                         class=""><span class="item_outer"><span
                                                                                 class="item_text">Product
                                                                                 List</span><span
-                                                                                class="plus"></span></span></a></li>
+                                                                                class="plus"></span></span></a>
+                                                                </li>
                                                                 <li id="sticky-nav-menu-item-952"
                                                                     class="menu-item menu-item-type-post_type menu-item-object-product ">
                                                                     <a href="https://lilo.qodeinteractive.com/product/monkey/"
                                                                         class=""><span class="item_outer"><span
                                                                                 class="item_text">Product
                                                                                 Single</span><span
-                                                                                class="plus"></span></span></a></li>
+                                                                                class="plus"></span></span></a>
+                                                                </li>
                                                                 <li id="sticky-nav-menu-item-1772"
                                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children sub">
-                                                                    <a href="#" class=""><span class="item_outer"><span
-                                                                                class="item_text">Shop Pages</span><span
+                                                                    <a href="#" class=""><span
+                                                                            class="item_outer"><span
+                                                                                class="item_text">Shop
+                                                                                Pages</span><span
                                                                                 class="plus"></span></span></a>
                                                                     <ul>
                                                                         <li id="sticky-nav-menu-item-1330"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/my-account/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">My
                                                                                         Account</span><span
                                                                                         class="plus"></span></span></a>
@@ -1013,14 +1106,16 @@
                                                                         <li id="sticky-nav-menu-item-1332"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/cart/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Cart</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1331"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/checkout/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Checkout</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
@@ -1050,21 +1145,24 @@
                                                                         <li id="sticky-nav-menu-item-1024"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/accordions/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Accordions</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1022"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/buttons/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Buttons</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1173"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/blog-list/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Blog
                                                                                         List</span><span
                                                                                         class="plus"></span></span></a>
@@ -1072,7 +1170,8 @@
                                                                         <li id="sticky-nav-menu-item-1174"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/icon-with-text/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Icon With
                                                                                         Text</span><span
                                                                                         class="plus"></span></span></a>
@@ -1080,7 +1179,8 @@
                                                                         <li id="sticky-nav-menu-item-1177"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/image-gallery/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Image
                                                                                         Gallery</span><span
                                                                                         class="plus"></span></span></a>
@@ -1088,14 +1188,16 @@
                                                                         <li id="sticky-nav-menu-item-1170"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/tabs/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Tabs</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1215"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/contact-form/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Contact
                                                                                         Form</span><span
                                                                                         class="plus"></span></span></a>
@@ -1113,14 +1215,16 @@
                                                                         <li id="sticky-nav-menu-item-1176"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/team/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Team</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1310"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/working-hours/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Working
                                                                                         Hours</span><span
                                                                                         class="plus"></span></span></a>
@@ -1128,7 +1232,8 @@
                                                                         <li id="sticky-nav-menu-item-1303"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/image-slider/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Image
                                                                                         Slider</span><span
                                                                                         class="plus"></span></span></a>
@@ -1136,7 +1241,8 @@
                                                                         <li id="sticky-nav-menu-item-1178"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/pricing-plan/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Pricing
                                                                                         Plan</span><span
                                                                                         class="plus"></span></span></a>
@@ -1144,7 +1250,8 @@
                                                                         <li id="sticky-nav-menu-item-1172"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/product-list/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Product
                                                                                         List</span><span
                                                                                         class="plus"></span></span></a>
@@ -1152,7 +1259,8 @@
                                                                         <li id="sticky-nav-menu-item-1175"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/testimonials/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Testimonials</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
@@ -1169,14 +1277,16 @@
                                                                         <li id="sticky-nav-menu-item-1181"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/counters/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Counters</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1399"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/google-maps/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Google
                                                                                         Maps</span><span
                                                                                         class="plus"></span></span></a>
@@ -1184,7 +1294,8 @@
                                                                         <li id="sticky-nav-menu-item-1302"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/icon-list-item/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Icon List
                                                                                         Item</span><span
                                                                                         class="plus"></span></span></a>
@@ -1192,7 +1303,8 @@
                                                                         <li id="sticky-nav-menu-item-1017"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/pie-chart/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Pie
                                                                                         Chart</span><span
                                                                                         class="plus"></span></span></a>
@@ -1200,14 +1312,16 @@
                                                                         <li id="sticky-nav-menu-item-1179"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/process/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Process</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1180"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/progress-bar/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Progress
                                                                                         Bar</span><span
                                                                                         class="plus"></span></span></a>
@@ -1215,7 +1329,8 @@
                                                                         <li id="sticky-nav-menu-item-1216"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/video-button/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Video
                                                                                         Button</span><span
                                                                                         class="plus"></span></span></a>
@@ -1233,42 +1348,48 @@
                                                                         <li id="sticky-nav-menu-item-1214"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/headings/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Headings</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1023"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/blockquote/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Blockquote</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1021"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/columns/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Columns</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1020"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/dropcaps/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Dropcaps</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1019"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/highlights/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Highlights</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
                                                                         <li id="sticky-nav-menu-item-1171"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/section-title/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Section
                                                                                         Title</span><span
                                                                                         class="plus"></span></span></a>
@@ -1276,7 +1397,8 @@
                                                                         <li id="sticky-nav-menu-item-1018"
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page ">
                                                                             <a href="https://lilo.qodeinteractive.com/elements/separators/"
-                                                                                class=""><span class="item_outer"><span
+                                                                                class=""><span
+                                                                                    class="item_outer"><span
                                                                                         class="item_text">Separators</span><span
                                                                                         class="plus"></span></span></a>
                                                                         </li>
@@ -1294,8 +1416,8 @@
                                     <div class="mkdf-position-right-inner">
                                         <div id="custom_html-3"
                                             class="widget_text widget widget_custom_html mkdf-sticky-right">
-                                            <div class="textwidget custom-html-widget"><span style=\"font-family: Baloo;
-                                                    color: #ff6f96; font-size: 20px; \">Call us<a
+                                            <div class="textwidget custom-html-widget"><span style=\"font-family:
+                                                    Baloo; color: #ff6f96; font-size: 20px; \">Call us<a
                                                         href=\"tel:962778083578\">+962778083578</a> </span></div>
                                         </div>
                                         <a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover mkdf-social-icon-circle mkdf-social-icon-switch"
@@ -1315,7 +1437,8 @@
                                             href="https://www.facebook.com/QodeInteractive/" target="_blank">
                                             <span
                                                 class="mkdf-social-icon-widget fab fa-facebook-square     "></span><span
-                                                class="mkdf-social-icon-widget fab fa-facebook-square     "></span> </a>
+                                                class="mkdf-social-icon-widget fab fa-facebook-square     "></span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1373,7 +1496,8 @@
                                         <li id="mobile-menu-item-635"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item ">
                                             <a href="https://lilo.qodeinteractive.com/" class=""><span>Cutie
-                                                    Pies</span></a></li>
+                                                    Pies</span></a>
+                                        </li>
                                         <li id="mobile-menu-item-633"
                                             class="menu-item menu-item-type-post_type menu-item-object-page "><a
                                                 href="https://lilo.qodeinteractive.com/little-heroes/"
@@ -1387,34 +1511,24 @@
                                 </li>
                                 <li id="mobile-menu-item-632"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-                                    <a href="#" class=" mkdf-mobile-no-link"><span>Pages</span></a><span
+                                    <a href="#" class=" mkdf-mobile-no-link"><span>Pagehhhhhhhhhhhhhhhhhhhhhhhhhhhhs</span></a><span
                                         class="mobile_arrow"><i class="mkdf-sub-arrow arrow_triangle-right"></i><i
                                             class="arrow_triangle-down"></i></span>
                                     <ul class="sub_menu">
                                         <li id="mobile-menu-item-639"
                                             class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                href="https://lilo.qodeinteractive.com/about-us/" class=""><span>About
+                                                href="about" class=""><span>About
                                                     Us</span></a></li>
-                                        <li id="mobile-menu-item-637"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                href="https://lilo.qodeinteractive.com/meet-the-team/"
-                                                class=""><span>Meet the Team</span></a></li>
+
                                         <li id="mobile-menu-item-636"
                                             class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                href="https://lilo.qodeinteractive.com/our-caregivers/"
-                                                class=""><span>Our Caregivers</span></a></li>
-                                        <li id="mobile-menu-item-640"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                href="https://lilo.qodeinteractive.com/our-services/" class=""><span>Our
-                                                    Services</span></a></li>
+                                                href="#" class=""><span>Countact us</span></a></li>
+
                                         <li id="mobile-menu-item-728"
                                             class="menu-item menu-item-type-post_type menu-item-object-page "><a
                                                 href="https://lilo.qodeinteractive.com/gallery/"
                                                 class=""><span>Gallery</span></a></li>
-                                        <li id="mobile-menu-item-638"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                href="https://lilo.qodeinteractive.com/get-in-touch/" class=""><span>Get
-                                                    In Touch</span></a></li>
+
                                     </ul>
                                 </li>
                                 <li id="mobile-menu-item-787"
@@ -1430,42 +1544,49 @@
                                         <li id="mobile-menu-item-1663"
                                             class="menu-item menu-item-type-post_type menu-item-object-page "><a
                                                 href="https://lilo.qodeinteractive.com/left-sidebar/"
-                                                class=""><span>Left Sidebar</span></a></li>
+                                                class=""><span>Advice</span></a></li>
                                         <li id="mobile-menu-item-1662"
                                             class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                href="https://lilo.qodeinteractive.com/no-sidebar/" class=""><span>No
+                                                href="https://lilo.qodeinteractive.com/no-sidebar/"
+                                                class=""><span>No
                                                     Sidebar</span></a></li>
                                         <li id="mobile-menu-item-1664"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-                                            <a href="#" class=" mkdf-mobile-no-link"><span>Post Types</span></a><span
-                                                class="mobile_arrow"><i
+                                            <a href="#" class=" mkdf-mobile-no-link"><span>Post
+                                                    Types</span></a><span class="mobile_arrow"><i
                                                     class="mkdf-sub-arrow arrow_triangle-right"></i><i
                                                     class="arrow_triangle-down"></i></span>
                                             <ul class="sub_menu">
                                                 <li id="mobile-menu-item-954"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
-                                                        href="https://lilo.qodeinteractive.com/parents-tomorrow/"
-                                                        class=""><span>Standard</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post ">
+                                                    <a href="https://lilo.qodeinteractive.com/parents-tomorrow/"
+                                                        class=""><span>Standard</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1653"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
-                                                        href="https://lilo.qodeinteractive.com/feeding-baby/"
-                                                        class=""><span>Gallery</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post ">
+                                                    <a href="https://lilo.qodeinteractive.com/feeding-baby/"
+                                                        class=""><span>Gallery</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1654"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
-                                                        href="https://lilo.qodeinteractive.com/happy-baby-happy-parents-happy-agency/"
-                                                        class=""><span>Link</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post ">
+                                                    <a href="https://lilo.qodeinteractive.com/happy-baby-happy-parents-happy-agency/"
+                                                        class=""><span>Link</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1655"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
-                                                        href="https://lilo.qodeinteractive.com/baby-shower-ideas/"
-                                                        class=""><span>Quote</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post ">
+                                                    <a href="https://lilo.qodeinteractive.com/baby-shower-ideas/"
+                                                        class=""><span>Quote</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1656"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
-                                                        href="https://lilo.qodeinteractive.com/cause-and-effect/"
-                                                        class=""><span>Video</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post ">
+                                                    <a href="https://lilo.qodeinteractive.com/cause-and-effect/"
+                                                        class=""><span>Video</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1657"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-post "><a
-                                                        href="https://lilo.qodeinteractive.com/activities-for-baby/"
-                                                        class=""><span>Audio</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-post ">
+                                                    <a href="https://lilo.qodeinteractive.com/activities-for-baby/"
+                                                        class=""><span>Audio</span></a>
+                                                </li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -1478,7 +1599,8 @@
                                     <ul class="sub_menu">
                                         <li id="mobile-menu-item-953"
                                             class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                href="https://lilo.qodeinteractive.com/shop/" class=""><span>Product
+                                                href="https://lilo.qodeinteractive.com/shop/"
+                                                class=""><span>Product
                                                     List</span></a></li>
                                         <li id="mobile-menu-item-952"
                                             class="menu-item menu-item-type-post_type menu-item-object-product "><a
@@ -1486,23 +1608,26 @@
                                                 class=""><span>Product Single</span></a></li>
                                         <li id="mobile-menu-item-1772"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub">
-                                            <a href="#" class=" mkdf-mobile-no-link"><span>Shop Pages</span></a><span
-                                                class="mobile_arrow"><i
+                                            <a href="#" class=" mkdf-mobile-no-link"><span>Shop
+                                                    Pages</span></a><span class="mobile_arrow"><i
                                                     class="mkdf-sub-arrow arrow_triangle-right"></i><i
                                                     class="arrow_triangle-down"></i></span>
                                             <ul class="sub_menu">
                                                 <li id="mobile-menu-item-1330"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/my-account/"
-                                                        class=""><span>My Account</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/my-account/"
+                                                        class=""><span>My Account</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1332"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/cart/"
-                                                        class=""><span>Cart</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/cart/"
+                                                        class=""><span>Cart</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1331"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/checkout/"
-                                                        class=""><span>Checkout</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/checkout/"
+                                                        class=""><span>Checkout</span></a>
+                                                </li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -1520,33 +1645,40 @@
                                                     class="arrow_triangle-down"></i></span>
                                             <ul class="sub_menu">
                                                 <li id="mobile-menu-item-1024"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/accordions/"
-                                                        class=""><span>Accordions</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/accordions/"
+                                                        class=""><span>Accordions</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1022"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/buttons/"
-                                                        class=""><span>Buttons</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/buttons/"
+                                                        class=""><span>Buttons</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1173"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/blog-list/"
-                                                        class=""><span>Blog List</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/blog-list/"
+                                                        class=""><span>Blog List</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1174"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/icon-with-text/"
-                                                        class=""><span>Icon With Text</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/icon-with-text/"
+                                                        class=""><span>Icon With Text</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1177"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/image-gallery/"
-                                                        class=""><span>Image Gallery</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/image-gallery/"
+                                                        class=""><span>Image Gallery</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1170"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/tabs/"
-                                                        class=""><span>Tabs</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/tabs/"
+                                                        class=""><span>Tabs</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1215"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/contact-form/"
-                                                        class=""><span>Contact Form</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/contact-form/"
+                                                        class=""><span>Contact Form</span></a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li id="mobile-menu-item-1057"
@@ -1556,29 +1688,35 @@
                                                     class="arrow_triangle-down"></i></span>
                                             <ul class="sub_menu">
                                                 <li id="mobile-menu-item-1176"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/team/"
-                                                        class=""><span>Team</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/team/"
+                                                        class=""><span>Team</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1310"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/working-hours/"
-                                                        class=""><span>Working Hours</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/working-hours/"
+                                                        class=""><span>Working Hours</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1303"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/image-slider/"
-                                                        class=""><span>Image Slider</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/image-slider/"
+                                                        class=""><span>Image Slider</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1178"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/pricing-plan/"
-                                                        class=""><span>Pricing Plan</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/pricing-plan/"
+                                                        class=""><span>Pricing Plan</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1172"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/product-list/"
-                                                        class=""><span>Product List</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/product-list/"
+                                                        class=""><span>Product List</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1175"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/testimonials/"
-                                                        class=""><span>Testimonials</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/testimonials/"
+                                                        class=""><span>Testimonials</span></a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li id="mobile-menu-item-1058"
@@ -1588,33 +1726,40 @@
                                                     class="arrow_triangle-down"></i></span>
                                             <ul class="sub_menu">
                                                 <li id="mobile-menu-item-1181"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/counters/"
-                                                        class=""><span>Counters</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/counters/"
+                                                        class=""><span>Counters</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1399"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/google-maps/"
-                                                        class=""><span>Google Maps</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/google-maps/"
+                                                        class=""><span>Google Maps</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1302"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/icon-list-item/"
-                                                        class=""><span>Icon List Item</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/icon-list-item/"
+                                                        class=""><span>Icon List Item</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1017"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/pie-chart/"
-                                                        class=""><span>Pie Chart</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/pie-chart/"
+                                                        class=""><span>Pie Chart</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1179"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/process/"
-                                                        class=""><span>Process</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/process/"
+                                                        class=""><span>Process</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1180"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/progress-bar/"
-                                                        class=""><span>Progress Bar</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/progress-bar/"
+                                                        class=""><span>Progress Bar</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1216"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/video-button/"
-                                                        class=""><span>Video Button</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/video-button/"
+                                                        class=""><span>Video Button</span></a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li id="mobile-menu-item-1059"
@@ -1624,33 +1769,40 @@
                                                     class="arrow_triangle-down"></i></span>
                                             <ul class="sub_menu">
                                                 <li id="mobile-menu-item-1214"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/headings/"
-                                                        class=""><span>Headings</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/headings/"
+                                                        class=""><span>Headings</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1023"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/blockquote/"
-                                                        class=""><span>Blockquote</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/blockquote/"
+                                                        class=""><span>Blockquote</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1021"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/columns/"
-                                                        class=""><span>Columns</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/columns/"
+                                                        class=""><span>Columns</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1020"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/dropcaps/"
-                                                        class=""><span>Dropcaps</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/dropcaps/"
+                                                        class=""><span>Dropcaps</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1019"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/highlights/"
-                                                        class=""><span>Highlights</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/highlights/"
+                                                        class=""><span>Highlights</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1171"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/section-title/"
-                                                        class=""><span>Section Title</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/section-title/"
+                                                        class=""><span>Section Title</span></a>
+                                                </li>
                                                 <li id="mobile-menu-item-1018"
-                                                    class="menu-item menu-item-type-post_type menu-item-object-page "><a
-                                                        href="https://lilo.qodeinteractive.com/elements/separators/"
-                                                        class=""><span>Separators</span></a></li>
+                                                    class="menu-item menu-item-type-post_type menu-item-object-page ">
+                                                    <a href="https://lilo.qodeinteractive.com/elements/separators/"
+                                                        class=""><span>Separators</span></a>
+                                                </li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -1676,7 +1828,7 @@
                             class="mkdf-icon-dripicons dripicon dripicons-rocket "></i></span>
                 </span>
             </a>
-            <div class="mkdf-content" style="margin-top: -100px">
+            <div class="mkdf-content" style="margin-top: -20px">
                 <div class="mkdf-content-inner">
                     <div class="mkdf-slider">
                         <div class="mkdf-slider-inner">
@@ -1686,13 +1838,15 @@
                                 <rs-module id="rev_slider_1_1" style="" data-version="6.6.5">
                                     <rs-slides style="overflow: hidden; position: absolute;">
                                         <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide"
-                                            data-thumb="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-slider-backround-1-100x50.jpg"
+                                            data-thumb="https://i.pinimg.com/564x/14/76/a6/1476a6052cf44c4221598f9a772d1da8.jpg"
                                             data-anim="adpr:false;">
-                                            <img src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                alt="" title="Cutie Pies" class="rev-slidebg tp-rs-img rs-lazyload"
-                                                data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-slider-backround-1.jpg"
+                                            <img src="https://i.pinimg.com/564x/82/35/87/823587b1af84024990865768b5082520.jpg"
+                                                alt="" title="Cutie Pies"
+                                                class="rev-slidebg tp-rs-img rs-lazyload"
+                                                data-lazyload="https://i.pinimg.com/564x/82/35/87/823587b1af84024990865768b5082520.jpg"
                                                 data-no-retina>
-                                            <rs-layer id="slider-1-slide-1-layer-10" data-type="image" data-rsp_ch="on"
+                                            <rs-layer id="slider-1-slide-1-layer-10" data-type="image"
+                                                data-rsp_ch="on"
                                                 data-xy="x:c;xo:-900px,-630px,-350px,-350px;y:m;yo:-100px,-50px,-75px,-75px;"
                                                 data-text="l:22;a:inherit;"
                                                 data-dim="w:['401px','401px','401px','401px'];h:['226px','226px','226px','226px'];"
@@ -1700,7 +1854,8 @@
                                                 data-frame_1="tp:600;e:power1.inOut;st:750;sp:800;sR:750;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:2450;" style="z-index:5;"><img
                                                     src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt="n" class="tp-rs-img rs-lazyload" width="401" height="226"
+                                                    alt="n" class="tp-rs-img rs-lazyload" width="401"
+                                                    height="226"
                                                     data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-rocket-vector.png"
                                                     data-no-retina>
                                             </rs-layer>
@@ -1720,21 +1875,23 @@
                                                 data-xy="xo:300px,130px,100px,-644px;y:m;yo:70px,64px,64px,198px;"
                                                 data-text="w:normal;s:19;l:34;a:inherit;"
                                                 data-dim="w:563px,554px,437px,297px;h:71px,71px,71px,auto;"
-                                                data-vbility="t,t,t,f" data-basealign="slide" data-frame_0="o:1;tp:600;"
-                                                data-frame_0_lines="d:10;y:30px;o:0;"
+                                                data-vbility="t,t,t,f" data-basealign="slide"
+                                                data-frame_0="o:1;tp:600;" data-frame_0_lines="d:10;y:30px;o:0;"
                                                 data-frame_1="tp:600;e:power1.inOut;st:500;sp:500;sR:500;"
                                                 data-frame_1_lines="d:10;" data-frame_999="o:0;tp:600;st:w;sR:3000;"
-                                                style="z-index:7;font-family:'Open Sans';">Unleash your child and make their dreams come trueRelease the energy from within them in the best way and for the best results
+                                                style="z-index:7;font-family:'Open Sans';">Unleash your child and make
+                                                their dreams come trueRelease the energy from within them in the best
+                                                way and for the best results
                                             </rs-layer>
                                             <rs-layer id="slider-1-slide-1-layer-3" data-type="text"
                                                 data-color="#000000"
                                                 data-xy="xo:300px,130px,100px,15px;y:m;yo:170px,159px,159px,110px;"
-                                                data-text="l:22;a:inherit;" data-basealign="slide" data-rsp_bd="off"
-                                                data-frame_0="y:30px;tp:600;"
+                                                data-text="l:22;a:inherit;" data-basealign="slide"
+                                                data-rsp_bd="off" data-frame_0="y:30px;tp:600;"
                                                 data-frame_1="tp:600;e:power1.inOut;st:700;sp:500;sR:700;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:2800;"
-                                                style="z-index:8;font-family:'';"><a itemprop="url"
-                                                    href="https://lilo.qodeinteractive.com/get-in-touch/" target="_self"
+                                                style="z-index:8;font-family:'';"><a itemprop="url" href="#"
+                                                    target="_self"
                                                     class="mkdf-btn mkdf-btn-medium mkdf-btn-solid mkdf-btn-icon mkdf-btn-icon-animate">
                                                     <span class="mkdf-btn-text">Contact Us</span>
                                                     <span class="mkdf-btn-icon-holder">
@@ -1747,7 +1904,8 @@
                                                     </span>
                                                 </a>
                                             </rs-layer>
-                                            <rs-layer id="slider-1-slide-1-layer-12" data-type="image" data-rsp_ch="on"
+                                            <rs-layer id="slider-1-slide-1-layer-12" data-type="image"
+                                                data-rsp_ch="on"
                                                 data-xy="x:c,c,c,l;xo:754px,650px,-413px,673px;y:m,m,m,t;yo:-206px,-190px,-105px,25px;"
                                                 data-text="l:22;a:inherit;"
                                                 data-dim="w:235px,200px,200px,274px;h:159px,135px,135px,185px;"
@@ -1755,7 +1913,8 @@
                                                 data-frame_1="rY:360;tp:600;e:power1.inOut;st:1200;sp:1000;sR:1200;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:1800;" style="z-index:9;"><img
                                                     src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt="v" class="tp-rs-img rs-lazyload" width="274" height="185"
+                                                    alt="v" class="tp-rs-img rs-lazyload" width="274"
+                                                    height="185"
                                                     data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-comment-cloud.png"
                                                     data-no-retina>
                                             </rs-layer>
@@ -1769,7 +1928,8 @@
                                                 data-frame_1_chars="d:10;" data-frame_999="o:0;tp:600;st:w;sR:200;"
                                                 style="z-index:10;font-family:'Baloo';">My Favorite Nanny! :)
                                             </rs-layer>
-                                            <rs-layer id="slider-1-slide-1-layer-7" data-type="image" data-rsp_ch="on"
+                                            <rs-layer id="slider-1-slide-1-layer-7" data-type="image"
+                                                data-rsp_ch="on"
                                                 data-xy="x:c;xo:819px,590px,590px,590px;y:m;yo:-104px,-89px,-89px,-89px;"
                                                 data-text="l:22;a:inherit;"
                                                 data-dim="w:['66px','66px','66px','66px'];h:['47px','47px','47px','47px'];"
@@ -1777,24 +1937,29 @@
                                                 data-frame_1="tp:600;e:power1.inOut;st:1000;sp:600;sR:1000;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:2400;" style="z-index:11;"><img
                                                     src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt="n" class="tp-rs-img rs-lazyload" width="66" height="47"
+                                                    alt="n" class="tp-rs-img rs-lazyload" width="66"
+                                                    height="47"
                                                     data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-bird-vector.png"
                                                     data-no-retina>
                                             </rs-layer>
-                                            <rs-layer id="slider-1-slide-1-layer-8" data-type="image" data-rsp_ch="on"
+                                            <rs-layer id="slider-1-slide-1-layer-8" data-type="image"
+                                                data-rsp_ch="on"
                                                 data-xy="x:c;xo:431px,344px,325px,325px;y:m;yo:-250px,-184px,-175px,-175px;"
                                                 data-text="l:22;a:inherit;"
                                                 data-dim="w:['66px','66px','66px','66px'];h:['66px','66px','66px','66px'];"
                                                 data-vbility="t,t,t,f" data-frame_0="sX:0.9;sY:0.9;tp:600;"
                                                 data-frame_1="tp:600;e:power1.inOut;st:1200;sp:500;sR:1200;"
-                                                data-frame_999="o:0;tp:600;st:w;sR:2300;" data-loop_0="sX:0.85;sY:0.85;"
+                                                data-frame_999="o:0;tp:600;st:w;sR:2300;"
+                                                data-loop_0="sX:0.85;sY:0.85;"
                                                 data-loop_999="sp:2000;yym:t;yys:t;yyf:t;" style="z-index:12;"><img
                                                     src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt="n" class="tp-rs-img rs-lazyload" width="66" height="66"
+                                                    alt="n" class="tp-rs-img rs-lazyload" width="66"
+                                                    height="66"
                                                     data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-sun-vector.png"
                                                     data-no-retina>
                                             </rs-layer>
-                                            <rs-layer id="slider-1-slide-1-layer-9" data-type="image" data-rsp_ch="on"
+                                            <rs-layer id="slider-1-slide-1-layer-9" data-type="image"
+                                                data-rsp_ch="on"
                                                 data-xy="x:c;xo:-850px,-566px,-437px,-437px;y:m;yo:160px,205px,210px,210px;"
                                                 data-text="l:22;a:inherit;"
                                                 data-dim="w:['116px','116px','116px','116px'];h:['85px','85px','85px','85px'];"
@@ -1802,7 +1967,8 @@
                                                 data-frame_1="tp:600;e:power1.inOut;st:1200;sp:500;sR:1200;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:2300;" style="z-index:13;"><img
                                                     src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt="n" class="tp-rs-img rs-lazyload" width="116" height="85"
+                                                    alt="n" class="tp-rs-img rs-lazyload" width="116"
+                                                    height="85"
                                                     data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-stars-vector.png"
                                                     data-no-retina>
                                             </rs-layer>
@@ -1811,10 +1977,12 @@
                                             data-thumb="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-slider-backround-2-100x50.jpg"
                                             data-anim="adpr:false;">
                                             <img src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                alt="" title="Cutie Pies" class="rev-slidebg tp-rs-img rs-lazyload"
-                                                data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-slider-backround-2.jpg"
+                                                alt="" title="Cutie Pies"
+                                                class="rev-slidebg tp-rs-img rs-lazyload"
+                                                data-lazyload="https://i.pinimg.com/236x/9d/cf/4e/9dcf4eede4a9fb1917c63128865698ad.jpg"
                                                 data-no-retina>
-                                            <rs-layer id="slider-1-slide-12-layer-10" data-type="image" data-rsp_ch="on"
+                                            <rs-layer id="slider-1-slide-12-layer-10" data-type="image"
+                                                data-rsp_ch="on"
                                                 data-xy="x:c;xo:-900px,-630px,-350px,-350px;y:m;yo:-100px,-50px,-75px,-75px;"
                                                 data-text="l:22;a:inherit;"
                                                 data-dim="w:['401px','401px','401px','401px'];h:['226px','226px','226px','226px'];"
@@ -1822,7 +1990,8 @@
                                                 data-frame_1="tp:600;e:power1.inOut;st:750;sp:800;sR:750;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:2450;" style="z-index:5;"><img
                                                     src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt="n" class="tp-rs-img rs-lazyload" width="401" height="226"
+                                                    alt="n" class="tp-rs-img rs-lazyload" width="401"
+                                                    height="226"
                                                     data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-rocket-vector.png"
                                                     data-no-retina>
                                             </rs-layer>
@@ -1835,7 +2004,7 @@
                                                 data-frame_0_lines="d:5;y:30px;o:0;"
                                                 data-frame_1="tp:600;e:power1.inOut;st:300;sp:500;sR:300;"
                                                 data-frame_1_lines="d:5;" data-frame_999="o:0;tp:600;st:w;sR:3200;"
-                                                style="z-index:6;font-family:'Baloo';">complete platform
+                                                style="z-index:6;font-family:'Baloo';">Together Well Explore New
                                             </rs-layer>
                                             <br><br>
                                             <rs-layer id="slider-1-slide-12-layer-2" data-type="text"
@@ -1843,22 +2012,26 @@
                                                 data-xy="xo:300px,130px,100px,-644px;y:m;yo:71px,62px,62px,198px;"
                                                 data-text="w:normal;s:19;l:34;a:inherit;"
                                                 data-dim="w:614px,499px,500px,297px;h:72px,auto,auto,auto;"
-                                                data-vbility="t,t,t,f" data-basealign="slide" data-frame_0="o:1;tp:600;"
-                                                data-frame_0_lines="d:10;y:30px;o:0;"
+                                                data-vbility="t,t,t,f" data-basealign="slide"
+                                                data-frame_0="o:1;tp:600;" data-frame_0_lines="d:10;y:30px;o:0;"
                                                 data-frame_1="tp:600;e:power1.inOut;st:500;sp:500;sR:500;"
                                                 data-frame_1_lines="d:10;" data-frame_999="o:0;tp:600;st:w;sR:3000;"
-                                                style="z-index:7;font-family:'Open Sans';">We strive to provide all the special services for children to achieve the greatest benefit that kids will
+                                                style="z-index:7;font-family:'Open Sans';color:wh">We strive to
+                                                provide all
+                                                the special services for children to achieve the greatest benefit that
+                                                kids will
                                                 enjoy.
                                             </rs-layer>
                                             <rs-layer id="slider-1-slide-12-layer-3" data-type="text"
                                                 data-color="#000000"
                                                 data-xy="xo:300px,130px,100px,15px;y:m;yo:170px,159px,159px,110px;"
-                                                data-text="l:22;a:inherit;" data-basealign="slide" data-rsp_bd="off"
-                                                data-frame_0="y:30px;tp:600;"
+                                                data-text="l:22;a:inherit;" data-basealign="slide"
+                                                data-rsp_bd="off" data-frame_0="y:30px;tp:600;"
                                                 data-frame_1="tp:600;e:power1.inOut;st:700;sp:500;sR:700;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:2800;"
                                                 style="z-index:8;font-family:'';"><a itemprop="url"
-                                                    href="https://lilo.qodeinteractive.com/get-in-touch/" target="_self"
+                                                    href="https://lilo.qodeinteractive.com/get-in-touch/"
+                                                    target="_self"
                                                     class="mkdf-btn mkdf-btn-medium mkdf-btn-solid mkdf-btn-icon mkdf-btn-icon-animate">
                                                     <span class="mkdf-btn-text">Contact Us</span>
                                                     <span class="mkdf-btn-icon-holder">
@@ -1871,7 +2044,8 @@
                                                     </span>
                                                 </a>
                                             </rs-layer>
-                                            <rs-layer id="slider-1-slide-12-layer-9" data-type="image" data-rsp_ch="on"
+                                            <rs-layer id="slider-1-slide-12-layer-9" data-type="image"
+                                                data-rsp_ch="on"
                                                 data-xy="x:c;xo:-850px,-566px,-437px,-437px;y:m;yo:160px,205px,210px,210px;"
                                                 data-text="l:22;a:inherit;"
                                                 data-dim="w:['116px','116px','116px','116px'];h:['85px','85px','85px','85px'];"
@@ -1879,11 +2053,13 @@
                                                 data-frame_1="tp:600;e:power1.inOut;st:1200;sp:500;sR:1200;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:2300;" style="z-index:9;"><img
                                                     src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt="n" class="tp-rs-img rs-lazyload" width="116" height="85"
+                                                    alt="n" class="tp-rs-img rs-lazyload" width="116"
+                                                    height="85"
                                                     data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-stars-vector.png"
                                                     data-no-retina>
                                             </rs-layer>
-                                            <rs-layer id="slider-1-slide-12-layer-19" data-type="image" data-rsp_ch="on"
+                                            <rs-layer id="slider-1-slide-12-layer-19" data-type="image"
+                                                data-rsp_ch="on"
                                                 data-xy="x:c;xo:800px,650px,-480px,-480px;y:m;yo:-50px,0,-50px,-50px;"
                                                 data-text="l:22;a:inherit;"
                                                 data-dim="w:['613px','613px','613px','613px'];h:['413px','413px','413px','413px'];"
@@ -1891,7 +2067,8 @@
                                                 data-frame_1="rY:180;tp:600;e:power1.inOut;st:750;sp:600;sR:750;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:2650;" style="z-index:10;"><img
                                                     src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt="j" class="tp-rs-img rs-lazyload" width="613" height="413"
+                                                    alt="j" class="tp-rs-img rs-lazyload" width="613"
+                                                    height="413"
                                                     data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-plane-vector.png"
                                                     data-no-retina>
                                             </rs-layer>
@@ -1900,10 +2077,12 @@
                                             data-thumb="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-slider-backround-3-100x50.jpg"
                                             data-anim="adpr:false;">
                                             <img src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                alt="" title="Cutie Pies" class="rev-slidebg tp-rs-img rs-lazyload"
+                                                alt="" title="Cutie Pies"
+                                                class="rev-slidebg tp-rs-img rs-lazyload"
                                                 data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-slider-backround-3.jpg"
                                                 data-no-retina>
-                                            <rs-layer id="slider-1-slide-11-layer-10" data-type="image" data-rsp_ch="on"
+                                            <rs-layer id="slider-1-slide-11-layer-10" data-type="image"
+                                                data-rsp_ch="on"
                                                 data-xy="x:c;xo:-900px,-630px,-350px,-350px;y:m;yo:-100px,-50px,-75px,-75px;"
                                                 data-text="l:22;a:inherit;"
                                                 data-dim="w:['401px','401px','401px','401px'];h:['226px','226px','226px','226px'];"
@@ -1911,7 +2090,8 @@
                                                 data-frame_1="tp:600;e:power1.inOut;st:750;sp:800;sR:750;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:2450;" style="z-index:5;"><img
                                                     src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt="n" class="tp-rs-img rs-lazyload" width="401" height="226"
+                                                    alt="n" class="tp-rs-img rs-lazyload" width="401"
+                                                    height="226"
                                                     data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-rocket-vector.png"
                                                     data-no-retina>
                                             </rs-layer>
@@ -1924,29 +2104,30 @@
                                                 data-frame_0_lines="d:5;y:30px;o:0;"
                                                 data-frame_1="tp:600;e:power1.inOut;st:300;sp:500;sR:300;"
                                                 data-frame_1_lines="d:5;" data-frame_999="o:0;tp:600;st:w;sR:3200;"
-                                                style="z-index:6;font-family:'Baloo';">Committed to care & education.
+                                                style="z-index:6;font-family:'Baloo';">More than 100 stories
                                             </rs-layer>
                                             <rs-layer id="slider-1-slide-11-layer-2" data-type="text"
                                                 data-color="#8f9093||#8f9093||#818284||#8f9093" data-rsp_ch="on"
                                                 data-xy="xo:300px,130px,100px,-644px;y:m;yo:71px,64px,64px,198px;"
                                                 data-text="w:normal;s:19;l:34;a:inherit;"
                                                 data-dim="w:528px,531px,468px,297px;h:72px,auto,auto,auto;"
-                                                data-vbility="t,t,t,f" data-basealign="slide" data-frame_0="o:1;tp:600;"
-                                                data-frame_0_lines="d:10;y:30px;o:0;"
+                                                data-vbility="t,t,t,f" data-basealign="slide"
+                                                data-frame_0="o:1;tp:600;" data-frame_0_lines="d:10;y:30px;o:0;"
                                                 data-frame_1="tp:600;e:power1.inOut;st:500;sp:500;sR:500;"
                                                 data-frame_1_lines="d:10;" data-frame_999="o:0;tp:600;st:w;sR:3000;"
-                                                style="z-index:7;font-family:'Open Sans';">Our caregivers adore working
-                                                with kids & are highly trained professionals who excel at what they do.
+                                                style="z-index:7;font-family:'Open Sans';">We make children enjoy
+                                                stories from different cultures and with different values.
                                             </rs-layer>
                                             <rs-layer id="slider-1-slide-11-layer-3" data-type="text"
                                                 data-color="#000000"
                                                 data-xy="xo:300px,130px,100px,15px;y:m;yo:170px,159px,159px,110px;"
-                                                data-text="l:22;a:inherit;" data-basealign="slide" data-rsp_bd="off"
-                                                data-frame_0="y:30px;tp:600;"
+                                                data-text="l:22;a:inherit;" data-basealign="slide"
+                                                data-rsp_bd="off" data-frame_0="y:30px;tp:600;"
                                                 data-frame_1="tp:600;e:power1.inOut;st:700;sp:500;sR:700;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:2800;"
                                                 style="z-index:8;font-family:'';"><a itemprop="url"
-                                                    href="https://lilo.qodeinteractive.com/get-in-touch/" target="_self"
+                                                    href="https://lilo.qodeinteractive.com/get-in-touch/"
+                                                    target="_self"
                                                     class="mkdf-btn mkdf-btn-medium mkdf-btn-solid mkdf-btn-icon mkdf-btn-icon-animate">
                                                     <span class="mkdf-btn-text">Contact Us</span>
                                                     <span class="mkdf-btn-icon-holder">
@@ -1959,7 +2140,8 @@
                                                     </span>
                                                 </a>
                                             </rs-layer>
-                                            <rs-layer id="slider-1-slide-11-layer-12" data-type="image" data-rsp_ch="on"
+                                            <rs-layer id="slider-1-slide-11-layer-12" data-type="image"
+                                                data-rsp_ch="on"
                                                 data-xy="x:c,c,c,l;xo:754px,565px,-413px,673px;y:m,m,m,t;yo:-150px,-122px,-105px,25px;"
                                                 data-text="l:22;a:inherit;"
                                                 data-dim="w:235px,200px,200px,274px;h:159px,135px,135px,185px;"
@@ -1967,7 +2149,8 @@
                                                 data-frame_1="rY:360;tp:600;e:power1.inOut;st:1200;sp:1000;sR:1200;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:1800;" style="z-index:9;"><img
                                                     src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt="v" class="tp-rs-img rs-lazyload" width="274" height="185"
+                                                    alt="v" class="tp-rs-img rs-lazyload" width="274"
+                                                    height="185"
                                                     data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-comment-cloud.png"
                                                     data-no-retina>
                                             </rs-layer>
@@ -1982,7 +2165,8 @@
                                                 data-frame_1_chars="d:10;" data-frame_999="o:0;tp:600;st:w;sR:200;"
                                                 style="z-index:10;font-family:'Baloo';">My Favorite Nanny! :)
                                             </rs-layer>
-                                            <rs-layer id="slider-1-slide-11-layer-9" data-type="image" data-rsp_ch="on"
+                                            <rs-layer id="slider-1-slide-11-layer-9" data-type="image"
+                                                data-rsp_ch="on"
                                                 data-xy="x:c;xo:-850px,-566px,-437px,-437px;y:m;yo:160px,205px,210px,210px;"
                                                 data-text="l:22;a:inherit;"
                                                 data-dim="w:['116px','116px','116px','116px'];h:['85px','85px','85px','85px'];"
@@ -1990,7 +2174,8 @@
                                                 data-frame_1="tp:600;e:power1.inOut;st:1200;sp:500;sR:1200;"
                                                 data-frame_999="o:0;tp:600;st:w;sR:2300;" style="z-index:11;"><img
                                                     src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                    alt="n" class="tp-rs-img rs-lazyload" width="116" height="85"
+                                                    alt="n" class="tp-rs-img rs-lazyload" width="116"
+                                                    height="85"
                                                     data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-stars-vector.png"
                                                     data-no-retina>
                                             </rs-layer>
@@ -1998,7 +2183,23 @@
                                     </rs-slides>
                                 </rs-module>
                                 <script>
-                                    setREVStartSize({ c: 'rev_slider_1_1', rl: [1920, 1700, 1025, 480], el: [], gw: [1300, 1100, 600, 300], gh: [800, 650, 600, 570], type: 'standard', justify: '', layout: 'fullwidth', mh: "0" }); if (window.RS_MODULES !== undefined && window.RS_MODULES.modules !== undefined && window.RS_MODULES.modules["revslider11"] !== undefined) { window.RS_MODULES.modules["revslider11"].once = false; window.revapi1 = undefined; if (window.RS_MODULES.checkMinimal !== undefined) window.RS_MODULES.checkMinimal() }
+                                    setREVStartSize({
+                                        c: 'rev_slider_1_1',
+                                        rl: [1920, 1700, 1025, 480],
+                                        el: [],
+                                        gw: [1300, 1100, 600, 300],
+                                        gh: [800, 650, 600, 570],
+                                        type: 'standard',
+                                        justify: '',
+                                        layout: 'fullwidth',
+                                        mh: "0"
+                                    });
+                                    if (window.RS_MODULES !== undefined && window.RS_MODULES.modules !== undefined && window.RS_MODULES.modules[
+                                            "revslider11"] !== undefined) {
+                                        window.RS_MODULES.modules["revslider11"].once = false;
+                                        window.revapi1 = undefined;
+                                        if (window.RS_MODULES.checkMinimal !== undefined) window.RS_MODULES.checkMinimal()
+                                    }
                                 </script>
                             </rs-module-wrap>
 
@@ -2019,7 +2220,8 @@
                                                                 <div
                                                                     class="mkdf-iwt clearfix  mkdf-iwt-icon-left mkdf-iwt-icon-medium  mkdf-custom-icon-mkdf-circle">
                                                                     <div class="mkdf-iwt-icon">
-                                                                        <a itemprop="url" href="#" target="_self">
+                                                                        <a itemprop="url" href="#"
+                                                                            target="_self">
                                                                             <div class="mkdf-iwt-custom-icon">
                                                                                 <div class="mkdf-iwt-custom-icon-shape"
                                                                                     style="background-color:#fcf4eb">
@@ -2036,18 +2238,20 @@
                                                                     <div class="mkdf-iwt-content">
                                                                         <h4 class="mkdf-iwt-title"
                                                                             style="margin-top: 25px">
-                                                                            <a itemprop="url" href="#" target="_self">
-                                                                                <span
-                                                                                    class="mkdf-iwt-title-text">Babysitting</span>
+                                                                            <a itemprop="url" href="#"
+                                                                                target="_self">
+                                                                                <span class="mkdf-iwt-title-text">new
+                                                                                    experience</span>
                                                                             </a>
                                                                         </h4>
                                                                         <p class="mkdf-iwt-text"
-                                                                            style="margin-top: 10px">Lorem ipsum dolor
-                                                                            sit amet velit , elitni legro int dolor.</p>
+                                                                            style="margin-top: 10px">Let your child
+                                                                            explore the world.</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="vc_empty_space" style="height: 50px"><span
-                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <div class="vc_empty_space" style="height: 50px">
+                                                                    <span class="vc_empty_space_inner"></span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2058,7 +2262,8 @@
                                                                 <div
                                                                     class="mkdf-iwt clearfix  mkdf-iwt-icon-left mkdf-iwt-icon-medium  mkdf-custom-icon-mkdf-circle">
                                                                     <div class="mkdf-iwt-icon">
-                                                                        <a itemprop="url" href="#" target="_self">
+                                                                        <a itemprop="url" href="#"
+                                                                            target="_self">
                                                                             <div class="mkdf-iwt-custom-icon">
                                                                                 <div class="mkdf-iwt-custom-icon-shape"
                                                                                     style="background-color:#ffedf2">
@@ -2075,18 +2280,21 @@
                                                                     <div class="mkdf-iwt-content">
                                                                         <h4 class="mkdf-iwt-title"
                                                                             style="margin-top: 25px">
-                                                                            <a itemprop="url" href="#" target="_self">
-                                                                                <span class="mkdf-iwt-title-text">Baby
-                                                                                    Shower</span>
+                                                                            <a itemprop="url" href="#"
+                                                                                target="_self">
+                                                                                <span
+                                                                                    class="mkdf-iwt-title-text">different
+                                                                                    stories</span>
                                                                             </a>
                                                                         </h4>
                                                                         <p class="mkdf-iwt-text"
-                                                                            style="margin-top: 10px">Lorem ipsum dolor
-                                                                            sit amet velit , elitni legro int dolor.</p>
+                                                                            style="margin-top: 10px">Stories from
+                                                                            different places, cultures, and values.</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="vc_empty_space" style="height: 50px"><span
-                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <div class="vc_empty_space" style="height: 50px">
+                                                                    <span class="vc_empty_space_inner"></span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2097,7 +2305,8 @@
                                                                 <div
                                                                     class="mkdf-iwt clearfix  mkdf-iwt-icon-left mkdf-iwt-icon-medium  mkdf-custom-icon-mkdf-circle">
                                                                     <div class="mkdf-iwt-icon">
-                                                                        <a itemprop="url" href="#" target="_self">
+                                                                        <a itemprop="url" href="#"
+                                                                            target="_self">
                                                                             <div class="mkdf-iwt-custom-icon">
                                                                                 <div class="mkdf-iwt-custom-icon-shape"
                                                                                     style="background-color:#f6f7e5">
@@ -2114,19 +2323,20 @@
                                                                     <div class="mkdf-iwt-content">
                                                                         <h4 class="mkdf-iwt-title"
                                                                             style="margin-top: 25px">
-                                                                            <a itemprop="url" href="#" target="_self">
-                                                                                <span
-                                                                                    class="mkdf-iwt-title-text">Full-Time
-                                                                                    Nanny</span>
+                                                                            <a itemprop="url" href="#"
+                                                                                target="_self">
+                                                                                <span class="mkdf-iwt-title-text">Tips
+                                                                                    for new moms</span>
                                                                             </a>
                                                                         </h4>
                                                                         <p class="mkdf-iwt-text"
-                                                                            style="margin-top: 10px">Lorem ipsum dolor
-                                                                            sit amet velit , elitni legro int dolor.</p>
+                                                                            style="margin-top: 10px">We offer a set of
+                                                                            tips for mothers to deal with children.</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="vc_empty_space" style="height: 50px"><span
-                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <div class="vc_empty_space" style="height: 50px">
+                                                                    <span class="vc_empty_space_inner"></span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2143,15 +2353,16 @@
                                                                 <div class="mkdf-single-image-holder   ">
                                                                     <div class="mkdf-si-inner">
                                                                         <img width="800" height="500"
-                                                                            src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-1.png"
-                                                                            class="attachment-full size-full" alt="j"
-                                                                            loading="lazy"
-                                                                            srcset="https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-1.png 800w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-1-300x188.png 300w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-1-768x480.png 768w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-1-350x219.png 350w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-1-500x313.png 500w"
+                                                                            src="https://i.pinimg.com/236x/86/e3/6e/86e36e92e50fcd054831fc85dbb9aacf.jpg"
+                                                                            class="attachment-full size-full"
+                                                                            alt="j" loading="lazy"
+                                                                            srcset="https://i.pinimg.com/236x/86/e3/6e/86e36e92e50fcd054831fc85dbb9aacf.jpg 800w"
                                                                             sizes="(max-width: 800px) 100vw, 800px" />
                                                                     </div>
                                                                 </div>
-                                                                <div class="vc_empty_space" style="height: 9px"><span
-                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <div class="vc_empty_space" style="height: 9px">
+                                                                    <span class="vc_empty_space_inner"></span>
+                                                                </div>
                                                                 <div class="wpb_text_column wpb_content_element ">
                                                                     <div class="wpb_wrapper">
                                                                         <h5>Helping your child develop and learn through
@@ -2161,23 +2372,23 @@
                                                                 <div
                                                                     class="wpb_text_column wpb_content_element  vc_custom_1525427056050">
                                                                     <div class="wpb_wrapper">
-                                                                        <p>Dolorum sit amet, consec tetuer adipiscing
-                                                                            elit nean de commodo ligula eget dolor.
-                                                                            Aenean massa tellus. Cume sociis Theme
-                                                                            natoque pen tibus et magnis augue. Aenea sum
-                                                                            ligula eget.</p>
+                                                                        <p>Develop your child's skills to discover the
+                                                                            world through different sources. And
+                                                                            remember that the first steps of creativity
+                                                                            in children is to unleash their ideas.</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="mkdf-single-image-holder   ">
                                                                     <div class="mkdf-si-inner">
                                                                         <img width="167" height="62"
                                                                             src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-signature.png"
-                                                                            class="attachment-full size-full" alt="v"
-                                                                            loading="lazy" />
+                                                                            class="attachment-full size-full"
+                                                                            alt="v" loading="lazy" />
                                                                     </div>
                                                                 </div>
-                                                                <div class="vc_empty_space" style="height: 35px"><span
-                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <div class="vc_empty_space" style="height: 35px">
+                                                                    <span class="vc_empty_space_inner"></span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2189,64 +2400,67 @@
                                                                     <div class="mkdf-si-inner">
                                                                         <img width="800" height="500"
                                                                             src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-2.png"
-                                                                            class="attachment-full size-full" alt="h"
-                                                                            loading="lazy"
-                                                                            srcset="https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-2.png 800w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-2-300x188.png 300w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-2-768x480.png 768w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-2-350x219.png 350w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-2-500x313.png 500w"
+                                                                            class="attachment-full size-full"
+                                                                            alt="h" loading="lazy"
+                                                                            srcset="https://i.pinimg.com/736x/55/91/93/559193024cf8456ee1d51990c9ad25bc.jpg 800w"
                                                                             sizes="(max-width: 800px) 100vw, 800px" />
                                                                     </div>
                                                                 </div>
-                                                                <div class="vc_empty_space" style="height: 25px"><span
-                                                                        class="vc_empty_space_inner"></span></div>
-                                                                <div class="mkdf-icon-list-holder ">
-                                                                    <div class="mkdf-il-icon-holder">
-                                                                        <i class="mkdf-icon-dripicons dripicon dripicons-checkmark "
-                                                                            style="color: #dce086"></i>
-                                                                    </div>
-                                                                    <p class="mkdf-il-text">Our job is to make your life
-                                                                        easier.</p>
+                                                                <div class="vc_empty_space" style="height: 25px">
+                                                                    <span class="vc_empty_space_inner"></span>
                                                                 </div>
                                                                 <div class="mkdf-icon-list-holder ">
                                                                     <div class="mkdf-il-icon-holder">
                                                                         <i class="mkdf-icon-dripicons dripicon dripicons-checkmark "
                                                                             style="color: #dce086"></i>
                                                                     </div>
-                                                                    <p class="mkdf-il-text">Experience childcare as it
-                                                                        should be.</p>
+                                                                    <p class="mkdf-il-text">Be the closest to your
+                                                                        child.</p>
                                                                 </div>
                                                                 <div class="mkdf-icon-list-holder ">
                                                                     <div class="mkdf-il-icon-holder">
                                                                         <i class="mkdf-icon-dripicons dripicon dripicons-checkmark "
                                                                             style="color: #dce086"></i>
                                                                     </div>
-                                                                    <p class="mkdf-il-text">Daycare is great…kids make
-                                                                        it special.</p>
+                                                                    <p class="mkdf-il-text">Listen to your child's
+                                                                        thoughts.</p>
                                                                 </div>
                                                                 <div class="mkdf-icon-list-holder ">
                                                                     <div class="mkdf-il-icon-holder">
                                                                         <i class="mkdf-icon-dripicons dripicon dripicons-checkmark "
                                                                             style="color: #dce086"></i>
                                                                     </div>
-                                                                    <p class="mkdf-il-text">We are childcare
-                                                                        professionals.</p>
+                                                                    <p class="mkdf-il-text">Allow your child to learn
+                                                                        through experience.</p>
                                                                 </div>
                                                                 <div class="mkdf-icon-list-holder ">
                                                                     <div class="mkdf-il-icon-holder">
                                                                         <i class="mkdf-icon-dripicons dripicon dripicons-checkmark "
                                                                             style="color: #dce086"></i>
                                                                     </div>
-                                                                    <p class="mkdf-il-text">Babysitting with immense
-                                                                        love and care.</p>
+                                                                    <p class="mkdf-il-text">Exploit your child's skill
+                                                                        and language development skillfully to express
+                                                                        himself.</p>
                                                                 </div>
                                                                 <div class="mkdf-icon-list-holder ">
                                                                     <div class="mkdf-il-icon-holder">
                                                                         <i class="mkdf-icon-dripicons dripicon dripicons-checkmark "
                                                                             style="color: #dce086"></i>
                                                                     </div>
-                                                                    <p class="mkdf-il-text">Your childcare wish just
-                                                                        came true.</p>
+                                                                    <p class="mkdf-il-text">Praise their good deeds.
+                                                                    </p>
                                                                 </div>
-                                                                <div class="vc_empty_space" style="height: 35px"><span
-                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <div class="mkdf-icon-list-holder ">
+                                                                    <div class="mkdf-il-icon-holder">
+                                                                        <i class="mkdf-icon-dripicons dripicon dripicons-checkmark "
+                                                                            style="color: #dce086"></i>
+                                                                    </div>
+                                                                    <p class="mkdf-il-text">Take time to be alone with
+                                                                        your child to talk.</p>
+                                                                </div>
+                                                                <div class="vc_empty_space" style="height: 35px">
+                                                                    <span class="vc_empty_space_inner"></span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2257,12 +2471,13 @@
                                                                 <div class="mkdf-working-hours-holder ">
                                                                     <div class="mkdf-wh-holder-inner">
                                                                         <div class="mkdf-wh-title-holder">
-                                                                            <h3 class="mkdf-wh-title">Working Hours</h3>
+                                                                            <h3 class="mkdf-wh-title">Working Hours
+                                                                            </h3>
                                                                         </div>
                                                                         <div class="mkdf-wh-text-holder">
-                                                                            <p class="mkdf-wh-text">Dolorum sit amet,
-                                                                                consec adipiscing elit commodo ligula
-                                                                                eget dolor.</p>
+                                                                            <p class="mkdf-wh-text">You can get
+                                                                                technical support or contact us at the
+                                                                                following times.</p>
                                                                         </div>
                                                                         <div class="mkdf-wh-item clearfix">
                                                                             <span class="mkdf-wh-day">
@@ -2319,13 +2534,13 @@
                                                                             </span>
                                                                         </div>
                                                                         <div class="mkdf-wh-button">
-                                                                            <a itemprop="url"
-                                                                                href="https://lilo.qodeinteractive.com/get-in-touch/"
+                                                                            <a itemprop="url" href="#"
                                                                                 target="_self"
                                                                                 class="mkdf-btn mkdf-btn-small mkdf-btn-solid mkdf-btn-icon mkdf-btn-icon-animate">
                                                                                 <span class="mkdf-btn-text">Contact
                                                                                     Us</span> <span
-                                                                                    class="mkdf-btn-icon-holder"> <span
+                                                                                    class="mkdf-btn-icon-holder">
+                                                                                    <span
                                                                                         class="mkdf-btn-icon-holder-inner">
                                                                                         <i
                                                                                             class="mkdf-icon-dripicons dripicon dripicons-rocket mkdf-btn-icon-elem"></i><span
@@ -2352,11 +2567,11 @@
                                                                     src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-video-button-img.jpg"
                                                                     class="attachment-full size-full" alt="v"
                                                                     loading="lazy"
-                                                                    srcset="https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-video-button-img.jpg 1100w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-video-button-img-300x196.jpg 300w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-video-button-img-768x503.jpg 768w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-video-button-img-1024x670.jpg 1024w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-video-button-img-350x229.jpg 350w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-video-button-img-500x327.jpg 500w"
+                                                                    srcset="https://i.pinimg.com/564x/23/51/93/23519300b27ae5294ba652b4850a9a82.jpg 1100w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-video-button-img-300x196.jpg 300w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-video-button-img-768x503.jpg 768w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-video-button-img-1024x670.jpg 1024w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-video-button-img-350x229.jpg 350w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/04/h1-video-button-img-500x327.jpg 500w"
                                                                     sizes="(max-width: 1100px) 100vw, 1100px" />
                                                             </div>
                                                             <a class="mkdf-video-button-play"
-                                                                href="https://vimeo.com/59932547" target="_self"
+                                                                href="https://vimeo.com/20924263" target="_self"
                                                                 data-rel="prettyPhoto[video_button_pretty_photo_240]">
                                                                 <span class="mkdf-video-button-play-inner">
                                                                     <span class="mkdf-video-button-outer">
@@ -2390,17 +2605,14 @@
                                                                             <div class="mkdf-st-inner">
                                                                                 <h1 class="mkdf-st-title"
                                                                                     style="color: #ffffff">
-                                                                                    For children 5 months<br /> to 6
-                                                                                    years of age </h1>
+                                                                                    Make your child's education
+                                                                                    fun<br />
+                                                                                </h1>
                                                                                 <p class="mkdf-st-text"
                                                                                     style="color: #ffffff;margin-top: 25px">
-                                                                                    Lorem ipsum dolor sit amet,
-                                                                                    consectetue adipiscin elit roni dis.
-                                                                                    Aenean comodo ligula eget dolor,
-                                                                                    aenean ena masa suma soc. Themes
-                                                                                    natoque ei penati bus et magnis, dis
-                                                                                    parturient montes, nascetur de
-                                                                                    ridiculus. </p>
+                                                                                    Enjoy learning, reading the newest
+                                                                                    stories, choosing the best teachers
+                                                                                    and sharing your experience </p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -2422,11 +2634,12 @@
                                                                     class="mkdf-section-title-holder   mkdf-st-subtitle-pos-under">
                                                                     <div class="mkdf-st-inner">
                                                                         <h1 class="mkdf-st-title">
-                                                                            Need a Babysitter? </h1>
+                                                                            Need a teachers? </h1>
                                                                     </div>
                                                                 </div>
-                                                                <div class="vc_empty_space" style="height: 50px"><span
-                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <div class="vc_empty_space" style="height: 50px">
+                                                                    <span class="vc_empty_space_inner"></span>
+                                                                </div>
                                                                 <div class="mkdf-process-holder  mkdf-four-columns ">
                                                                     <div class="mkdf-process-inner">
                                                                         <div class="mkdf-process-item ">
@@ -2437,9 +2650,9 @@
                                                                                 </div>
                                                                                 <h5 class="mkdf-pi-title">Join the
                                                                                     Network</h5>
-                                                                                <p class="mkdf-pi-text">Cum sociis
-                                                                                    natoque penatibus et magnis dis
-                                                                                    montes, ridiculus mus.</p>
+                                                                                <p class="mkdf-pi-text">Hurry up to
+                                                                                    join our family and choose the right
+                                                                                    teacher for you</p>
                                                                             </div>
                                                                         </div>
                                                                         <div
@@ -2450,10 +2663,10 @@
                                                                                         alt="Process image" />
                                                                                 </div>
                                                                                 <h5 class="mkdf-pi-title">Find a
-                                                                                    Babysitter</h5>
-                                                                                <p class="mkdf-pi-text">Cum sociis
-                                                                                    natoque penatibus et magnis dis
-                                                                                    montes, ridiculus mus.</p>
+                                                                                    teachers</h5>
+                                                                                <p class="mkdf-pi-text">Select the
+                                                                                    teacher and the subject to be
+                                                                                    learned.</p>
                                                                             </div>
                                                                         </div>
                                                                         <div class="mkdf-process-item ">
@@ -2462,11 +2675,11 @@
                                                                                     <img src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/process-img-3.png"
                                                                                         alt="Process image" />
                                                                                 </div>
-                                                                                <h5 class="mkdf-pi-title">Happy Baby
+                                                                                <h5 class="mkdf-pi-title">Happy kids
                                                                                 </h5>
-                                                                                <p class="mkdf-pi-text">Cum sociis
-                                                                                    natoque penatibus et magnis dis
-                                                                                    montes, ridiculus mus.</p>
+                                                                                <p class="mkdf-pi-text">Make learning
+                                                                                    fun through different activities for
+                                                                                    each lesson</p>
                                                                             </div>
                                                                         </div>
                                                                         <div class="mkdf-process-item ">
@@ -2475,11 +2688,12 @@
                                                                                     <img src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/process-img-4.png"
                                                                                         alt="Process image" />
                                                                                 </div>
-                                                                                <h5 class="mkdf-pi-title">Happy Parents
+                                                                                <h5 class="mkdf-pi-title">Happy
+                                                                                    Parents
                                                                                 </h5>
-                                                                                <p class="mkdf-pi-text">Cum sociis
-                                                                                    natoque penatibus et magnis dis
-                                                                                    montes, ridiculus mus.</p>
+                                                                                <p class="mkdf-pi-text">Reliability of
+                                                                                    what your child is learning and
+                                                                                    follow-up.</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -2508,12 +2722,12 @@
                                                                                         <h1 class="mkdf-st-title">
                                                                                             Happy Clients </h1>
                                                                                         <p class="mkdf-st-text">
-                                                                                            Aenean sollicitudin, lorem
-                                                                                            auci elit consequat
-                                                                                            ipsutissem niuis sed odio
-                                                                                            sit amet nibh dictum
-                                                                                            vulputate cursus a sit amet
-                                                                                            ultricies augue. </p>
+                                                                                            Because we always strive to
+                                                                                            provide integrated and
+                                                                                            practical services, the
+                                                                                            opinion of our customers is
+                                                                                            a goal that must be taken
+                                                                                            into account. </p>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2523,7 +2737,8 @@
                                                                 <div
                                                                     class="mkdf-testimonials-holder mkdf-testimonials-boxed  clearfix">
                                                                     <div class="mkdf-testimonials mkdf-owl-slider"
-                                                                        data-number-of-items="3" data-enable-loop="yes"
+                                                                        data-number-of-items="3"
+                                                                        data-enable-loop="yes"
                                                                         data-enable-autoplay="yes"
                                                                         data-slider-speed="5000"
                                                                         data-slider-speed-animation="600"
@@ -2532,15 +2747,19 @@
                                                                         <div class="mkdf-testimonial-content"
                                                                             id="mkdf-testimonials-214">
                                                                             <div class="mkdf-testimonial-text-holder">
-                                                                                <p class="mkdf-testimonial-text">Aenean
-                                                                                    massa. Cum sociis sem Theme natoque
-                                                                                    penatibus et magnis dis et magnis
-                                                                                    dis amet parturient montes natoque.
+                                                                                <p class="mkdf-testimonial-text">
+                                                                                    Lorem ipsum, dolor sit amet
+                                                                                    consectetur adipisicing elit. Maxime
+                                                                                    impedit tenetur consequuntur, sed,
+                                                                                    et necessitatibus ea voluptatum non
+                                                                                    quas unde dolore ex, quos natus at
+                                                                                    placeat tempora esse sequi autem.
                                                                                     <span
                                                                                         class="mkdf-testimonial-triangle">
                                                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                            x="0px" y="0px"
+                                                                                            x="0px"
+                                                                                            y="0px"
                                                                                             width="44.75px"
                                                                                             height="26.02px"
                                                                                             viewBox="0 0 44.75 26.02"
@@ -2553,8 +2772,10 @@
                                                                                 </p>
                                                                                 <div
                                                                                     class="mkdf-testimonials-author-holder clearfix">
-                                                                                    <div class="mkdf-testimonial-image">
-                                                                                        <img width="73" height="73"
+                                                                                    <div
+                                                                                        class="mkdf-testimonial-image">
+                                                                                        <img width="73"
+                                                                                            height="73"
                                                                                             src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/people-circle-img-9.png"
                                                                                             class="attachment-150x150 size-150x150 wp-post-image"
                                                                                             alt="v" />
@@ -2563,10 +2784,10 @@
                                                                                         class="mkdf-testimonial-author">
                                                                                         <h5
                                                                                             class="mkdf-testimonials-author-name">
-                                                                                            Anna Hanson</h5>
+                                                                                            USER</h5>
                                                                                         <span
-                                                                                            class="mkdf-testimonials-author-job">Mother
-                                                                                            of twins</span>
+                                                                                            class="mkdf-testimonials-author-job">USER
+                                                                                            DESC</span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2574,15 +2795,20 @@
                                                                         <div class="mkdf-testimonial-content"
                                                                             id="mkdf-testimonials-213">
                                                                             <div class="mkdf-testimonial-text-holder">
-                                                                                <p class="mkdf-testimonial-text">Aenean
-                                                                                    massa. Cum sociis sem Theme natoque
-                                                                                    penatibus et magnis dis et magnis
-                                                                                    dis amet parturient montes natoque.
+                                                                                <p class="mkdf-testimonial-text">
+                                                                                    Lorem ipsum dolor sit amet
+                                                                                    consectetur adipisicing elit. Ullam
+                                                                                    aliquam consequatur blanditiis, iure
+                                                                                    officia recusandae deserunt illum
+                                                                                    vel libero nemo sint eos et eius
+                                                                                    minus error maxime necessitatibus
+                                                                                    veniam nisi..
                                                                                     <span
                                                                                         class="mkdf-testimonial-triangle">
                                                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                            x="0px" y="0px"
+                                                                                            x="0px"
+                                                                                            y="0px"
                                                                                             width="44.75px"
                                                                                             height="26.02px"
                                                                                             viewBox="0 0 44.75 26.02"
@@ -2595,20 +2821,22 @@
                                                                                 </p>
                                                                                 <div
                                                                                     class="mkdf-testimonials-author-holder clearfix">
-                                                                                    <div class="mkdf-testimonial-image">
-                                                                                        <img width="73" height="73"
+                                                                                    <div
+                                                                                        class="mkdf-testimonial-image">
+                                                                                        <img width="73"
+                                                                                            height="73"
                                                                                             src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/people-circle-img-8.png"
                                                                                             class="attachment-150x150 size-150x150 wp-post-image"
-                                                                                            alt="v" loading="lazy" />
+                                                                                            alt="v"
+                                                                                            loading="lazy" />
                                                                                     </div>
                                                                                     <div
                                                                                         class="mkdf-testimonial-author">
                                                                                         <h5
                                                                                             class="mkdf-testimonials-author-name">
-                                                                                            Judy Guzman</h5>
+                                                                                            USER3</h5>
                                                                                         <span
-                                                                                            class="mkdf-testimonials-author-job">Mom
-                                                                                            of 3 boys</span>
+                                                                                            class="mkdf-testimonials-author-job">USERROL</span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2616,15 +2844,20 @@
                                                                         <div class="mkdf-testimonial-content"
                                                                             id="mkdf-testimonials-212">
                                                                             <div class="mkdf-testimonial-text-holder">
-                                                                                <p class="mkdf-testimonial-text">Aenean
-                                                                                    massa. Cum sociis sem Theme natoque
-                                                                                    penatibus et magnis dis et magnis
-                                                                                    dis amet parturient montes natoque.
+                                                                                <p class="mkdf-testimonial-text">
+                                                                                    Lorem ipsum dolor sit amet
+                                                                                    consectetur, adipisicing elit.
+                                                                                    Aperiam vel quam nihil optio ipsa
+                                                                                    odio fugit porro eum, nam earum sed
+                                                                                    temporibus nemo totam recusandae
+                                                                                    assumenda. Ipsa sunt corrupti
+                                                                                    reprehenderit.
                                                                                     <span
                                                                                         class="mkdf-testimonial-triangle">
                                                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                            x="0px" y="0px"
+                                                                                            x="0px"
+                                                                                            y="0px"
                                                                                             width="44.75px"
                                                                                             height="26.02px"
                                                                                             viewBox="0 0 44.75 26.02"
@@ -2637,20 +2870,22 @@
                                                                                 </p>
                                                                                 <div
                                                                                     class="mkdf-testimonials-author-holder clearfix">
-                                                                                    <div class="mkdf-testimonial-image">
-                                                                                        <img width="73" height="73"
+                                                                                    <div
+                                                                                        class="mkdf-testimonial-image">
+                                                                                        <img width="73"
+                                                                                            height="73"
                                                                                             src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/people-circle-img-7.png"
                                                                                             class="attachment-150x150 size-150x150 wp-post-image"
-                                                                                            alt="v" loading="lazy" />
+                                                                                            alt="v"
+                                                                                            loading="lazy" />
                                                                                     </div>
                                                                                     <div
                                                                                         class="mkdf-testimonial-author">
                                                                                         <h5
                                                                                             class="mkdf-testimonials-author-name">
-                                                                                            Bobby Evans</h5>
+                                                                                            USER4</h5>
                                                                                         <span
-                                                                                            class="mkdf-testimonials-author-job">Speech
-                                                                                            Therapist</span>
+                                                                                            class="mkdf-testimonials-author-job">USERROLt</span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2658,15 +2893,21 @@
                                                                         <div class="mkdf-testimonial-content"
                                                                             id="mkdf-testimonials-210">
                                                                             <div class="mkdf-testimonial-text-holder">
-                                                                                <p class="mkdf-testimonial-text">Aenean
-                                                                                    massa. Cum sociis sem Theme natoque
-                                                                                    penatibus et magnis dis et magnis
-                                                                                    dis amet parturient montes natoque.
+                                                                                <p class="mkdf-testimonial-text">
+                                                                                    Lorem ipsum dolor sit amet
+                                                                                    consectetur, adipisicing elit. Rerum
+                                                                                    magnam ullam sequi quam reiciendis
+                                                                                    nisi eveniet cum quas
+                                                                                    necessitatibus. Aliquam voluptatibus
+                                                                                    illum quaerat. Delectus explicabo
+                                                                                    beatae non sint corporis
+                                                                                    consequatur.
                                                                                     <span
                                                                                         class="mkdf-testimonial-triangle">
                                                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                            x="0px" y="0px"
+                                                                                            x="0px"
+                                                                                            y="0px"
                                                                                             width="44.75px"
                                                                                             height="26.02px"
                                                                                             viewBox="0 0 44.75 26.02"
@@ -2679,19 +2920,22 @@
                                                                                 </p>
                                                                                 <div
                                                                                     class="mkdf-testimonials-author-holder clearfix">
-                                                                                    <div class="mkdf-testimonial-image">
-                                                                                        <img width="73" height="73"
+                                                                                    <div
+                                                                                        class="mkdf-testimonial-image">
+                                                                                        <img width="73"
+                                                                                            height="73"
                                                                                             src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/people-circle-img-6.png"
                                                                                             class="attachment-150x150 size-150x150 wp-post-image"
-                                                                                            alt="v" loading="lazy" />
+                                                                                            alt="v"
+                                                                                            loading="lazy" />
                                                                                     </div>
                                                                                     <div
                                                                                         class="mkdf-testimonial-author">
                                                                                         <h5
                                                                                             class="mkdf-testimonials-author-name">
-                                                                                            Kathy Harper</h5>
+                                                                                            User5</h5>
                                                                                         <span
-                                                                                            class="mkdf-testimonials-author-job">Psychologist</span>
+                                                                                            class="mkdf-testimonials-author-job">USERROL</span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2699,15 +2943,20 @@
                                                                         <div class="mkdf-testimonial-content"
                                                                             id="mkdf-testimonials-207">
                                                                             <div class="mkdf-testimonial-text-holder">
-                                                                                <p class="mkdf-testimonial-text">Aenean
-                                                                                    massa. Cum sociis sem Theme natoque
-                                                                                    penatibus et magnis dis et magnis
-                                                                                    dis amet parturient montes natoque.
+                                                                                <p class="mkdf-testimonial-text">
+                                                                                    Lorem, ipsum dolor sit amet
+                                                                                    consectetur adipisicing elit.
+                                                                                    Aspernatur alias ducimus distinctio.
+                                                                                    Perspiciatis, vel asperiores sit
+                                                                                    voluptas provident omnis sed error
+                                                                                    porro, numquam, quae odit earum non
+                                                                                    ducimus quidem odio.
                                                                                     <span
                                                                                         class="mkdf-testimonial-triangle">
                                                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                            x="0px" y="0px"
+                                                                                            x="0px"
+                                                                                            y="0px"
                                                                                             width="44.75px"
                                                                                             height="26.02px"
                                                                                             viewBox="0 0 44.75 26.02"
@@ -2720,19 +2969,22 @@
                                                                                 </p>
                                                                                 <div
                                                                                     class="mkdf-testimonials-author-holder clearfix">
-                                                                                    <div class="mkdf-testimonial-image">
-                                                                                        <img width="73" height="73"
+                                                                                    <div
+                                                                                        class="mkdf-testimonial-image">
+                                                                                        <img width="73"
+                                                                                            height="73"
                                                                                             src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/people-circle-img-5.png"
                                                                                             class="attachment-150x150 size-150x150 wp-post-image"
-                                                                                            alt="v" loading="lazy" />
+                                                                                            alt="v"
+                                                                                            loading="lazy" />
                                                                                     </div>
                                                                                     <div
                                                                                         class="mkdf-testimonial-author">
                                                                                         <h5
                                                                                             class="mkdf-testimonials-author-name">
-                                                                                            Sandra Ward</h5>
+                                                                                            USER6</h5>
                                                                                         <span
-                                                                                            class="mkdf-testimonials-author-job">Counselor</span>
+                                                                                            class="mkdf-testimonials-author-job">USERROL</span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2740,15 +2992,20 @@
                                                                         <div class="mkdf-testimonial-content"
                                                                             id="mkdf-testimonials-205">
                                                                             <div class="mkdf-testimonial-text-holder">
-                                                                                <p class="mkdf-testimonial-text">Aenean
-                                                                                    massa. Cum sociis sem Theme natoque
-                                                                                    penatibus et magnis dis et magnis
-                                                                                    dis amet parturient montes natoque.
+                                                                                <p class="mkdf-testimonial-text">
+                                                                                    Lorem, ipsum dolor sit amet
+                                                                                    consectetur adipisicing elit. Quos
+                                                                                    at ab sapiente qui minus a unde,
+                                                                                    officiis enim quidem sit distinctio
+                                                                                    voluptatibus doloremque nulla eum,
+                                                                                    molestiae expedita reprehenderit
+                                                                                    fugit numquam!
                                                                                     <span
                                                                                         class="mkdf-testimonial-triangle">
                                                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                            x="0px" y="0px"
+                                                                                            x="0px"
+                                                                                            y="0px"
                                                                                             width="44.75px"
                                                                                             height="26.02px"
                                                                                             viewBox="0 0 44.75 26.02"
@@ -2761,20 +3018,22 @@
                                                                                 </p>
                                                                                 <div
                                                                                     class="mkdf-testimonials-author-holder clearfix">
-                                                                                    <div class="mkdf-testimonial-image">
-                                                                                        <img width="73" height="73"
+                                                                                    <div
+                                                                                        class="mkdf-testimonial-image">
+                                                                                        <img width="73"
+                                                                                            height="73"
                                                                                             src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/people-circle-img-4.png"
                                                                                             class="attachment-150x150 size-150x150 wp-post-image"
-                                                                                            alt="v" loading="lazy" />
+                                                                                            alt="v"
+                                                                                            loading="lazy" />
                                                                                     </div>
                                                                                     <div
                                                                                         class="mkdf-testimonial-author">
                                                                                         <h5
                                                                                             class="mkdf-testimonials-author-name">
-                                                                                            Linda Adams</h5>
+                                                                                            User7</h5>
                                                                                         <span
-                                                                                            class="mkdf-testimonials-author-job">Future
-                                                                                            mom</span>
+                                                                                            class="mkdf-testimonials-author-job">USERROL</span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2782,15 +3041,21 @@
                                                                         <div class="mkdf-testimonial-content"
                                                                             id="mkdf-testimonials-195">
                                                                             <div class="mkdf-testimonial-text-holder">
-                                                                                <p class="mkdf-testimonial-text">Aenean
-                                                                                    massa. Cum sociis sem Theme natoque
-                                                                                    penatibus et magnis dis et magnis
-                                                                                    dis amet parturient montes natoque.
+                                                                                <p class="mkdf-testimonial-text">
+                                                                                    Lorem ipsum dolor sit amet
+                                                                                    consectetur adipisicing elit.
+                                                                                    Exercitationem aut veritatis qui ut
+                                                                                    reiciendis tenetur a doloremque
+                                                                                    maiores repellendus sit nisi
+                                                                                    blanditiis, fugiat officiis ab
+                                                                                    commodi aspernatur delectus magni
+                                                                                    totam?
                                                                                     <span
                                                                                         class="mkdf-testimonial-triangle">
                                                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                            x="0px" y="0px"
+                                                                                            x="0px"
+                                                                                            y="0px"
                                                                                             width="44.75px"
                                                                                             height="26.02px"
                                                                                             viewBox="0 0 44.75 26.02"
@@ -2803,20 +3068,22 @@
                                                                                 </p>
                                                                                 <div
                                                                                     class="mkdf-testimonials-author-holder clearfix">
-                                                                                    <div class="mkdf-testimonial-image">
-                                                                                        <img width="73" height="73"
+                                                                                    <div
+                                                                                        class="mkdf-testimonial-image">
+                                                                                        <img width="73"
+                                                                                            height="73"
                                                                                             src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/people-circle-img-3.png"
                                                                                             class="attachment-150x150 size-150x150 wp-post-image"
-                                                                                            alt="v" loading="lazy" />
+                                                                                            alt="v"
+                                                                                            loading="lazy" />
                                                                                     </div>
                                                                                     <div
                                                                                         class="mkdf-testimonial-author">
                                                                                         <h5
                                                                                             class="mkdf-testimonials-author-name">
-                                                                                            Russell Gray</h5>
+                                                                                            USER8</h5>
                                                                                         <span
-                                                                                            class="mkdf-testimonials-author-job">Dad
-                                                                                            of four girls</span>
+                                                                                            class="mkdf-testimonials-author-job">USERROL</span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2824,15 +3091,20 @@
                                                                         <div class="mkdf-testimonial-content"
                                                                             id="mkdf-testimonials-179">
                                                                             <div class="mkdf-testimonial-text-holder">
-                                                                                <p class="mkdf-testimonial-text">Aenean
-                                                                                    massa. Cum sociis sem Theme natoque
-                                                                                    penatibus et magnis dis et magnis
-                                                                                    dis amet parturient montes natoque.
+                                                                                <p class="mkdf-testimonial-text">
+                                                                                    Lorem ipsum dolor sit amet
+                                                                                    consectetur adipisicing elit. Omnis
+                                                                                    officiis dolor velit. Cumque
+                                                                                    perferendis dolores ratione mollitia
+                                                                                    nostrum, praesentium doloremque id,
+                                                                                    maxime eum voluptatem repellat
+                                                                                    aliquid quasi esse eveniet adipisci?
                                                                                     <span
                                                                                         class="mkdf-testimonial-triangle">
                                                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                            x="0px" y="0px"
+                                                                                            x="0px"
+                                                                                            y="0px"
                                                                                             width="44.75px"
                                                                                             height="26.02px"
                                                                                             viewBox="0 0 44.75 26.02"
@@ -2845,20 +3117,22 @@
                                                                                 </p>
                                                                                 <div
                                                                                     class="mkdf-testimonials-author-holder clearfix">
-                                                                                    <div class="mkdf-testimonial-image">
-                                                                                        <img width="73" height="73"
+                                                                                    <div
+                                                                                        class="mkdf-testimonial-image">
+                                                                                        <img width="73"
+                                                                                            height="73"
                                                                                             src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/people-circle-img-2.png"
                                                                                             class="attachment-150x150 size-150x150 wp-post-image"
-                                                                                            alt="v" loading="lazy" />
+                                                                                            alt="v"
+                                                                                            loading="lazy" />
                                                                                     </div>
                                                                                     <div
                                                                                         class="mkdf-testimonial-author">
                                                                                         <h5
                                                                                             class="mkdf-testimonials-author-name">
-                                                                                            Janice Meyer</h5>
+                                                                                            USER9</h5>
                                                                                         <span
-                                                                                            class="mkdf-testimonials-author-job">Mom
-                                                                                            of 2 boys</span>
+                                                                                            class="mkdf-testimonials-author-job">USERROL</span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -2866,15 +3140,20 @@
                                                                         <div class="mkdf-testimonial-content"
                                                                             id="mkdf-testimonials-148">
                                                                             <div class="mkdf-testimonial-text-holder">
-                                                                                <p class="mkdf-testimonial-text">Aenean
-                                                                                    massa. Cum sociis sem Theme natoque
-                                                                                    penatibus et magnis dis et magnis
-                                                                                    dis amet parturient montes natoque.
+                                                                                <p class="mkdf-testimonial-text">
+                                                                                    Lorem ipsum dolor sit amet,
+                                                                                    consectetur adipisicing elit. Rem
+                                                                                    velit iure vero cumque natus commodi
+                                                                                    vel consequatur, nihil esse quos
+                                                                                    harum debitis quaerat totam atque
+                                                                                    odio minima veritatis repellat
+                                                                                    voluptatibus?
                                                                                     <span
                                                                                         class="mkdf-testimonial-triangle">
                                                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                                                             xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                                            x="0px" y="0px"
+                                                                                            x="0px"
+                                                                                            y="0px"
                                                                                             width="44.75px"
                                                                                             height="26.02px"
                                                                                             viewBox="0 0 44.75 26.02"
@@ -2887,11 +3166,14 @@
                                                                                 </p>
                                                                                 <div
                                                                                     class="mkdf-testimonials-author-holder clearfix">
-                                                                                    <div class="mkdf-testimonial-image">
-                                                                                        <img width="73" height="73"
+                                                                                    <div
+                                                                                        class="mkdf-testimonial-image">
+                                                                                        <img width="73"
+                                                                                            height="73"
                                                                                             src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/people-circle-img-1.png"
                                                                                             class="attachment-150x150 size-150x150 wp-post-image"
-                                                                                            alt="v" loading="lazy" />
+                                                                                            alt="v"
+                                                                                            loading="lazy" />
                                                                                     </div>
                                                                                     <div
                                                                                         class="mkdf-testimonial-author">
@@ -2913,7 +3195,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="mkdf-row-grid-section-wrapper " style="background-color:#32355d">
+                                        <div class="mkdf-row-grid-section-wrapper "
+                                            style="background-color:#32355d">
                                             <div class="mkdf-row-grid-section">
                                                 <div
                                                     class="vc_row wpb_row vc_row-fluid vc_custom_1526376132764 vc_row-o-content-top vc_row-flex">
@@ -2928,8 +3211,9 @@
                                                                                 Newsletter</span></h3>
                                                                     </div>
                                                                 </div>
-                                                                <div class="vc_empty_space" style="height: 15px"><span
-                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <div class="vc_empty_space" style="height: 15px">
+                                                                    <span class="vc_empty_space_inner"></span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2937,8 +3221,9 @@
                                                         class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-8 vc_col-md-12">
                                                         <div class="vc_column-inner">
                                                             <div class="wpb_wrapper">
-                                                                <div role="form" class="wpcf7" id="wpcf7-f794-p6-o1"
-                                                                    lang="en-US" dir="ltr">
+                                                                <div role="form" class="wpcf7"
+                                                                    id="wpcf7-f794-p6-o1" lang="en-US"
+                                                                    dir="ltr">
                                                                     <div class="screen-reader-response">
                                                                         <p role="status" aria-live="polite"
                                                                             aria-atomic="true"></p>
@@ -2950,11 +3235,14 @@
                                                                         <div style="display: none;">
                                                                             <input type="hidden" name="_wpcf7"
                                                                                 value="794" />
-                                                                            <input type="hidden" name="_wpcf7_version"
+                                                                            <input type="hidden"
+                                                                                name="_wpcf7_version"
                                                                                 value="5.6.4" />
-                                                                            <input type="hidden" name="_wpcf7_locale"
+                                                                            <input type="hidden"
+                                                                                name="_wpcf7_locale"
                                                                                 value="en_US" />
-                                                                            <input type="hidden" name="_wpcf7_unit_tag"
+                                                                            <input type="hidden"
+                                                                                name="_wpcf7_unit_tag"
                                                                                 value="wpcf7-f794-p6-o1" />
                                                                             <input type="hidden"
                                                                                 name="_wpcf7_container_post"
@@ -2967,15 +3255,18 @@
                                                                             <div class="mkdf-column-left">
                                                                                 <span class="wpcf7-form-control-wrap"
                                                                                     data-name="your-email"><input
-                                                                                        type="email" name="your-email"
-                                                                                        value="" size="40"
+                                                                                        type="email"
+                                                                                        name="your-email"
+                                                                                        value=""
+                                                                                        size="40"
                                                                                         class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                                                         aria-required="true"
                                                                                         aria-invalid="false"
                                                                                         placeholder="Your e-mail..." /></span>
                                                                             </div>
                                                                             <div class="mkdf-column-right">
-                                                                                <input type="submit" value="Subscribe"
+                                                                                <input type="submit"
+                                                                                    value="Subscribe"
                                                                                     class="wpcf7-form-control has-spinner wpcf7-submit" />
                                                                             </div>
                                                                         </div>
@@ -3000,12 +3291,10 @@
                                                                     style="text-align: center">
                                                                     <div class="mkdf-st-inner">
                                                                         <h1 class="mkdf-st-title">
-                                                                            Our Babysitters </h1>
+                                                                            Our Teashers </h1>
                                                                         <p class="mkdf-st-text">
-                                                                            Aenean sollicitudin, lorem auci elit
-                                                                            consequat ipsutissem niuis sed odio sit amet
-                                                                            nibh dictum vulputate cursus a sit amet
-                                                                            ultricies augue. </p>
+                                                                            All our teachers for different subjects and
+                                                                            activities are currently available. </p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -3035,18 +3324,18 @@
                                                                                     srcset="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-1.jpg 800w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-1-300x188.jpg 300w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-1-768x480.jpg 768w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-1-350x219.jpg 350w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-1-500x313.jpg 500w"
                                                                                     sizes="(max-width: 800px) 100vw, 800px" />
                                                                                 <span
-                                                                                    class="mkdf-team-position">Full-time
-                                                                                    Babysitter</span>
+                                                                                    class="mkdf-team-position">teacher</span>
                                                                             </div>
                                                                         </a>
                                                                         <div class="mkdf-team-info">
                                                                             <a itemprop="url"
                                                                                 href="https://lilo.qodeinteractive.com/our-caregivers/"
                                                                                 target="_self">
-                                                                                <h5 class="mkdf-team-name">Margaret
-                                                                                    Burke</h5>
+                                                                                <h5 class="mkdf-team-name">teacher
+                                                                                    name</h5>
                                                                             </a>
-                                                                            <p class="mkdf-team-text">Lorem ipsum dolor
+                                                                            <p class="mkdf-team-text">Lorem ipsum
+                                                                                dolor
                                                                                 sit ain, consece iner adipicing elit
                                                                                 ligula eget dolor.</p>
                                                                             <div class="mkdf-team-social-holder">
@@ -3111,8 +3400,9 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="vc_empty_space" style="height: 45px"><span
-                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <div class="vc_empty_space" style="height: 45px">
+                                                                    <span class="vc_empty_space_inner"></span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3134,18 +3424,20 @@
                                                                                     srcset="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-2.jpg 800w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-2-300x188.jpg 300w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-2-768x480.jpg 768w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-2-350x219.jpg 350w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-2-500x313.jpg 500w"
                                                                                     sizes="(max-width: 800px) 100vw, 800px" />
                                                                                 <span class="mkdf-team-position"
-                                                                                    style="background-color: #9ad8d3">Full-time
-                                                                                    Nanny</span>
+                                                                                    style="background-color: #9ad8d3">teacher
+                                                                                    av</span>
                                                                             </div>
                                                                         </a>
                                                                         <div class="mkdf-team-info">
                                                                             <a itemprop="url"
                                                                                 href="https://lilo.qodeinteractive.com/our-caregivers/"
                                                                                 target="_self">
-                                                                                <h5 class="mkdf-team-name">Arthur Gibson
+                                                                                <h5 class="mkdf-team-name">teacher
+                                                                                    name
                                                                                 </h5>
                                                                             </a>
-                                                                            <p class="mkdf-team-text">Lorem ipsum dolor
+                                                                            <p class="mkdf-team-text">Lorem ipsum
+                                                                                dolor
                                                                                 sit ain, consece iner adipicing elit
                                                                                 ligula eget dolor.</p>
                                                                             <div class="mkdf-team-social-holder">
@@ -3210,8 +3502,9 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="vc_empty_space" style="height: 45px"><span
-                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <div class="vc_empty_space" style="height: 45px">
+                                                                    <span class="vc_empty_space_inner"></span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3233,18 +3526,19 @@
                                                                                     srcset="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-3.jpg 800w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-3-300x188.jpg 300w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-3-768x480.jpg 768w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-3-350x219.jpg 350w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-3-500x313.jpg 500w"
                                                                                     sizes="(max-width: 800px) 100vw, 800px" />
                                                                                 <span class="mkdf-team-position"
-                                                                                    style="background-color: #dce086">Full-time
-                                                                                    Babysitter</span>
+                                                                                    style="background-color: #dce086">teacher
+                                                                                    av</span>
                                                                             </div>
                                                                         </a>
                                                                         <div class="mkdf-team-info">
                                                                             <a itemprop="url"
                                                                                 href="https://lilo.qodeinteractive.com/our-caregivers/"
                                                                                 target="_self">
-                                                                                <h5 class="mkdf-team-name">Patricia
-                                                                                    McCoy</h5>
+                                                                                <h5 class="mkdf-team-name">teacher
+                                                                                    name</h5>
                                                                             </a>
-                                                                            <p class="mkdf-team-text">Lorem ipsum dolor
+                                                                            <p class="mkdf-team-text">Lorem ipsum
+                                                                                dolor
                                                                                 sit ain, consece iner adipicing elit
                                                                                 ligula eget dolor.</p>
                                                                             <div class="mkdf-team-social-holder">
@@ -3309,8 +3603,9 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <div class="vc_empty_space" style="height: 45px"><span
-                                                                        class="vc_empty_space_inner"></span></div>
+                                                                <div class="vc_empty_space" style="height: 45px">
+                                                                    <span class="vc_empty_space_inner"></span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -3355,7 +3650,8 @@
                                                                                     data-no-retina>
                                                                             </rs-layer>
                                                                             <rs-layer id="slider-5-slide-5-layer-2"
-                                                                                data-type="text" data-color="#32355d"
+                                                                                data-type="text"
+                                                                                data-color="#32355d"
                                                                                 data-rsp_ch="on"
                                                                                 data-xy="x:c;y:m;yo:50px,20px,10px,5px;"
                                                                                 data-text="w:nowrap,nowrap,nowrap,normal;s:50,50,45,40;l:55,55,50,42;a:inherit,inherit,inherit,center;"
@@ -3364,10 +3660,11 @@
                                                                                 data-frame_1="tp:600;e:power1.inOut;st:300;sp:700;sR:300;"
                                                                                 data-frame_999="o:0;tp:600;st:w;sR:2000;"
                                                                                 style="z-index:6;font-family:'Baloo';">
-                                                                                Last-minute Requests
+                                                                                Connect us
                                                                             </rs-layer>
                                                                             <rs-layer id="slider-5-slide-5-layer-4"
-                                                                                data-type="text" data-color="#8f9093"
+                                                                                data-type="text"
+                                                                                data-color="#8f9093"
                                                                                 data-rsp_ch="on"
                                                                                 data-xy="x:c;y:m;yo:130px,90px,83px,95px;"
                                                                                 data-text="w:normal;s:19,19,19,15;l:34,34,36,26;a:center;"
@@ -3378,13 +3675,11 @@
                                                                                 data-frame_1_lines="d:10;"
                                                                                 data-frame_999="o:0;tp:600;st:w;sR:1850;"
                                                                                 style="z-index:7;font-family:'Open Sans';">
-                                                                                Cum sociis Theme natoque penatibus et
-                                                                                magnis dis montes, semper libero nibh
-                                                                                velit auctor parturient nascetur
-                                                                                ridiculus mus.
+                                                                                For more inquiries and more information.
                                                                             </rs-layer>
                                                                             <rs-layer id="slider-5-slide-5-layer-5"
-                                                                                data-type="text" data-color="#000000"
+                                                                                data-type="text"
+                                                                                data-color="#000000"
                                                                                 data-xy="x:c;y:m;yo:225px,180px,174px,185px;"
                                                                                 data-text="l:22;a:inherit;"
                                                                                 data-rsp_bd="off"
@@ -3396,9 +3691,11 @@
                                                                                     href="https://lilo.qodeinteractive.com/get-in-touch/"
                                                                                     target="_self"
                                                                                     class="mkdf-btn mkdf-btn-medium mkdf-btn-solid mkdf-btn-icon mkdf-btn-icon-animate">
-                                                                                    <span class="mkdf-btn-text">Contact
+                                                                                    <span
+                                                                                        class="mkdf-btn-text">Contact
                                                                                         Us</span>
-                                                                                    <span class="mkdf-btn-icon-holder">
+                                                                                    <span
+                                                                                        class="mkdf-btn-icon-holder">
                                                                                         <span
                                                                                             class="mkdf-btn-icon-holder-inner">
                                                                                             <i
@@ -3454,7 +3751,8 @@
                                                                                 data-loop_999="sX:1.1;sY:1.1;sp:2000;yym:t;yys:t;yyf:t;"
                                                                                 style="z-index:11;"><img
                                                                                     src="//lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/assets/dummy.png"
-                                                                                    alt="" class="tp-rs-img rs-lazyload"
+                                                                                    alt=""
+                                                                                    class="tp-rs-img rs-lazyload"
                                                                                     width="123" height="117"
                                                                                     data-lazyload="//lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-yellow-sun-vector.png"
                                                                                     data-no-retina>
@@ -3495,7 +3793,23 @@
                                                                     </rs-slides>
                                                                 </rs-module>
                                                                 <script>
-                                                                    setREVStartSize({ c: 'rev_slider_5_2', rl: [1920, 1700, 1025, 480], el: [], gw: [1300, 1100, 600, 300], gh: [800, 650, 600, 550], type: 'standard', justify: '', layout: 'fullwidth', mh: "0" }); if (window.RS_MODULES !== undefined && window.RS_MODULES.modules !== undefined && window.RS_MODULES.modules["revslider52"] !== undefined) { window.RS_MODULES.modules["revslider52"].once = false; window.revapi5 = undefined; if (window.RS_MODULES.checkMinimal !== undefined) window.RS_MODULES.checkMinimal() }
+                                                                    setREVStartSize({
+                                                                        c: 'rev_slider_5_2',
+                                                                        rl: [1920, 1700, 1025, 480],
+                                                                        el: [],
+                                                                        gw: [1300, 1100, 600, 300],
+                                                                        gh: [800, 650, 600, 550],
+                                                                        type: 'standard',
+                                                                        justify: '',
+                                                                        layout: 'fullwidth',
+                                                                        mh: "0"
+                                                                    });
+                                                                    if (window.RS_MODULES !== undefined && window.RS_MODULES.modules !== undefined && window.RS_MODULES.modules[
+                                                                            "revslider52"] !== undefined) {
+                                                                        window.RS_MODULES.modules["revslider52"].once = false;
+                                                                        window.revapi5 = undefined;
+                                                                        if (window.RS_MODULES.checkMinimal !== undefined) window.RS_MODULES.checkMinimal()
+                                                                    }
                                                                 </script>
                                                             </rs-module-wrap>
 
@@ -3531,8 +3845,7 @@
                                 </div>
                                 <div id="text-3" class="widget mkdf-footer-column-1 widget_text">
                                     <div class="textwidget">
-                                        <p>Etiam rhoncus sit amet adipiscing sed ipsum. Lorem ipsum dolor sit amet
-                                            adipiscing sem neque.</p>
+                                        <p>We learn together, we grow together.</p>
                                     </div>
                                 </div>
                                 <a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover mkdf-social-icon-circle mkdf-social-icon-switch"
@@ -3567,19 +3880,23 @@
                                             <li id="menu-item-1261"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1261">
                                                 <a href="https://lilo.qodeinteractive.com/our-services/">Services and
-                                                    Prices</a></li>
+                                                    Prices</a>
+                                            </li>
                                             <li id="menu-item-1258"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1258">
                                                 <a href="https://lilo.qodeinteractive.com/about-us/">Find Out About
-                                                    Lilo</a></li>
+                                                    Lilo</a>
+                                            </li>
                                             <li id="menu-item-1260"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1260">
                                                 <a href="https://lilo.qodeinteractive.com/gallery/">See Our Lovely
-                                                    Gallery</a></li>
+                                                    Gallery</a>
+                                            </li>
                                             <li id="menu-item-1259"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1259">
                                                 <a href="https://lilo.qodeinteractive.com/get-in-touch/">Get In Touch
-                                                    With Us</a></li>
+                                                    With Us</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -3588,33 +3905,37 @@
                                 <div id="mkdf_instagram_widget-4"
                                     class="widget mkdf-footer-column-3 widget_mkdf_instagram_widget">
                                     <div class="mkdf-widget-title-holder">
-                                        <h3 class="mkdf-widget-title">Instagram</h3>
+                                        <h3 class="mkdf-widget-title">ٍEasy acses</h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="mkdf-column-content mkdf-grid-col-3">
                                 <div id="nav_menu-3" class="widget mkdf-footer-column-4 widget_nav_menu">
                                     <div class="mkdf-widget-title-holder">
-                                        <h3 class="mkdf-widget-title">Babysitters</h3>
+                                        <h3 class="mkdf-widget-title">Teacher</h3>
                                     </div>
                                     <div class="menu-footer-custom-menu-2-container">
                                         <ul id="menu-footer-custom-menu-2" class="menu">
                                             <li id="menu-item-1262"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1262">
                                                 <a href="https://lilo.qodeinteractive.com/meet-the-team/">Our Team of
-                                                    Experts</a></li>
+                                                    Experts</a>
+                                            </li>
                                             <li id="menu-item-1263"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1263">
                                                 <a href="https://lilo.qodeinteractive.com/our-caregivers/">Meet the
-                                                    Caregivers</a></li>
+                                                    Caregivers</a>
+                                            </li>
                                             <li id="menu-item-1755"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1755">
                                                 <a href="https://lilo.qodeinteractive.com/gallery/">See the Happy
-                                                    Bunch</a></li>
+                                                    Bunch</a>
+                                            </li>
                                             <li id="menu-item-1754"
                                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1754">
                                                 <a href="https://lilo.qodeinteractive.com/blog-standard/">Read Our
-                                                    Expert Advice</a></li>
+                                                    Expert Advice</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -3628,9 +3949,9 @@
                             <div class="mkdf-grid-col-12">
                                 <div id="text-2" class="widget mkdf-footer-bottom-column-1 widget_text">
                                     <div class="textwidget">
-                                        <p><a href="https://qodeinteractive.com/" target="_blank" rel="noopener"><span
-                                                    style="color: #8f9093;">© 2018 Qode Interactive, All Rights
-                                                    Reserved</span></a></p>
+                                        <p><a href="https://qodeinteractive.com/" target="_blank"
+                                                rel="noopener"><span style="color: #8f9093;">© 2022 , All Rights
+                                                    Reserved to Turkyeh Yousef</span></a></p>
                                     </div>
                                 </div>
                             </div>
@@ -3658,14 +3979,26 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap" rel="stylesheet"
         property="stylesheet" media="all" type="text/css">
     <script type="text/javascript">
-        (function () {
+        (function() {
             var c = document.body.className;
             c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
             document.body.className = c;
         })();
     </script>
     <script>
-        if (typeof revslider_showDoubleJqueryError === "undefined") { function revslider_showDoubleJqueryError(sliderID) { console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion."); console.log("To fix this, you can:"); console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"); console.log("2. Find the double jQuery.js inclusion and remove it"); return "Double Included jQuery Library"; } }
+        if (typeof revslider_showDoubleJqueryError === "undefined") {
+            function revslider_showDoubleJqueryError(sliderID) {
+                console.log(
+                    "You have some jquery.js library include that comes after the Slider Revolution files js inclusion."
+                );
+                console.log("To fix this, you can:");
+                console.log(
+                    "1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"
+                );
+                console.log("2. Find the double jQuery.js inclusion and remove it");
+                return "Double Included jQuery Library";
+            }
+        }
     </script>
     <link rel='stylesheet' id='rs-plugin-settings-css'
         href='https://lilo.qodeinteractive.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.5'
@@ -3740,8 +4073,14 @@
         id='swv-js'></script>
     <script type='text/javascript' id='contact-form-7-js-extra'>
         /* <![CDATA[ */
-        var wpcf7 = { "api": { "root": "https:\/\/lilo.qodeinteractive.com\/wp-json\/", "namespace": "contact-form-7\/v1" }, "cached": "1" };
-/* ]]> */
+        var wpcf7 = {
+            "api": {
+                "root": "https:\/\/lilo.qodeinteractive.com\/wp-json\/",
+                "namespace": "contact-form-7\/v1"
+            },
+            "cached": "1"
+        };
+        /* ]]> */
     </script>
     <script type='text/javascript'
         src='https://lilo.qodeinteractive.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6.4'
@@ -3753,24 +4092,42 @@
         id='js-cookie-js'></script>
     <script type='text/javascript' id='woocommerce-js-extra'>
         /* <![CDATA[ */
-        var woocommerce_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%" };
-/* ]]> */
+        var woocommerce_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
+        };
+        /* ]]> */
     </script>
     <script type='text/javascript'
         src='https://lilo.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.0.0'
         id='woocommerce-js'></script>
     <script type='text/javascript' id='wc-cart-fragments-js-extra'>
         /* <![CDATA[ */
-        var wc_cart_fragments_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_67f38a0dba5b11a8afb5a54cf4cbbceb", "fragment_name": "wc_fragments_67f38a0dba5b11a8afb5a54cf4cbbceb", "request_timeout": "5000" };
-/* ]]> */
+        var wc_cart_fragments_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+            "cart_hash_key": "wc_cart_hash_67f38a0dba5b11a8afb5a54cf4cbbceb",
+            "fragment_name": "wc_fragments_67f38a0dba5b11a8afb5a54cf4cbbceb",
+            "request_timeout": "5000"
+        };
+        /* ]]> */
     </script>
     <script type='text/javascript'
         src='https://lilo.qodeinteractive.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.0.0'
         id='wc-cart-fragments-js'></script>
     <script type='text/javascript' id='ppress-frontend-script-js-extra'>
         /* <![CDATA[ */
-        var pp_ajax_form = { "ajaxurl": "https:\/\/lilo.qodeinteractive.com\/wp-admin\/admin-ajax.php", "confirm_delete": "Are you sure?", "deleting_text": "Deleting...", "deleting_error": "An error occurred. Please try again.", "nonce": "57e747a6ac", "disable_ajax_form": "false", "is_checkout": "0", "is_checkout_tax_enabled": "0" };
-/* ]]> */
+        var pp_ajax_form = {
+            "ajaxurl": "https:\/\/lilo.qodeinteractive.com\/wp-admin\/admin-ajax.php",
+            "confirm_delete": "Are you sure?",
+            "deleting_text": "Deleting...",
+            "deleting_error": "An error occurred. Please try again.",
+            "nonce": "57e747a6ac",
+            "disable_ajax_form": "false",
+            "is_checkout": "0",
+            "is_checkout_tax_enabled": "0"
+        };
+        /* ]]> */
     </script>
     <script type='text/javascript'
         src='https://lilo.qodeinteractive.com/wp-content/plugins/wp-user-avatar/assets/js/frontend.min.js?ver=4.3.0'
@@ -3778,25 +4135,106 @@
     <script type='text/javascript'
         src='https://lilo.qodeinteractive.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.16.1'
         id='gtm4wp-form-move-tracker-js'></script>
-    <script type='text/javascript'
-        src='https://lilo.qodeinteractive.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1'
+    <script type='text/javascript' src='https://lilo.qodeinteractive.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1'
         id='jquery-ui-core-js'></script>
     <script type='text/javascript' id='qi-addons-for-elementor-script-js-extra'>
         /* <![CDATA[ */
-        var qodefQiAddonsGlobal = { "vars": { "adminBarHeight": 0, "iconArrowLeft": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"\/><line x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"\/><line x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"\/><\/svg>", "iconArrowRight": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"\/><line x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"\/><line x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"\/><\/svg>", "iconClose": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>" } };
-/* ]]> */
+        var qodefQiAddonsGlobal = {
+            "vars": {
+                "adminBarHeight": 0,
+                "iconArrowLeft": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"\/><line x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"\/><line x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"\/><\/svg>",
+                "iconArrowRight": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"><line x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"\/><line x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"\/><line x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"\/><\/svg>",
+                "iconClose": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>"
+            }
+        };
+        /* ]]> */
     </script>
     <script type='text/javascript'
         src='https://lilo.qodeinteractive.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.0.3'
         id='qi-addons-for-elementor-script-js'></script>
-    <script type='text/javascript'
-        src='https://lilo.qodeinteractive.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.13.1'
+    <script type='text/javascript' src='https://lilo.qodeinteractive.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.13.1'
         id='jquery-ui-tabs-js'></script>
     <script type='text/javascript'
         src='https://lilo.qodeinteractive.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.13.1'
         id='jquery-ui-accordion-js'></script>
     <script type='text/javascript' id='mediaelement-core-js-before'>
-        var mejsL10n = { "language": "en", "strings": { "mejs.download-file": "Download File", "mejs.install-flash": "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/", "mejs.fullscreen": "Fullscreen", "mejs.play": "Play", "mejs.pause": "Pause", "mejs.time-slider": "Time Slider", "mejs.time-help-text": "Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.", "mejs.live-broadcast": "Live Broadcast", "mejs.volume-help-text": "Use Up\/Down Arrow keys to increase or decrease volume.", "mejs.unmute": "Unmute", "mejs.mute": "Mute", "mejs.volume-slider": "Volume Slider", "mejs.video-player": "Video Player", "mejs.audio-player": "Audio Player", "mejs.captions-subtitles": "Captions\/Subtitles", "mejs.captions-chapters": "Chapters", "mejs.none": "None", "mejs.afrikaans": "Afrikaans", "mejs.albanian": "Albanian", "mejs.arabic": "Arabic", "mejs.belarusian": "Belarusian", "mejs.bulgarian": "Bulgarian", "mejs.catalan": "Catalan", "mejs.chinese": "Chinese", "mejs.chinese-simplified": "Chinese (Simplified)", "mejs.chinese-traditional": "Chinese (Traditional)", "mejs.croatian": "Croatian", "mejs.czech": "Czech", "mejs.danish": "Danish", "mejs.dutch": "Dutch", "mejs.english": "English", "mejs.estonian": "Estonian", "mejs.filipino": "Filipino", "mejs.finnish": "Finnish", "mejs.french": "French", "mejs.galician": "Galician", "mejs.german": "German", "mejs.greek": "Greek", "mejs.haitian-creole": "Haitian Creole", "mejs.hebrew": "Hebrew", "mejs.hindi": "Hindi", "mejs.hungarian": "Hungarian", "mejs.icelandic": "Icelandic", "mejs.indonesian": "Indonesian", "mejs.irish": "Irish", "mejs.italian": "Italian", "mejs.japanese": "Japanese", "mejs.korean": "Korean", "mejs.latvian": "Latvian", "mejs.lithuanian": "Lithuanian", "mejs.macedonian": "Macedonian", "mejs.malay": "Malay", "mejs.maltese": "Maltese", "mejs.norwegian": "Norwegian", "mejs.persian": "Persian", "mejs.polish": "Polish", "mejs.portuguese": "Portuguese", "mejs.romanian": "Romanian", "mejs.russian": "Russian", "mejs.serbian": "Serbian", "mejs.slovak": "Slovak", "mejs.slovenian": "Slovenian", "mejs.spanish": "Spanish", "mejs.swahili": "Swahili", "mejs.swedish": "Swedish", "mejs.tagalog": "Tagalog", "mejs.thai": "Thai", "mejs.turkish": "Turkish", "mejs.ukrainian": "Ukrainian", "mejs.vietnamese": "Vietnamese", "mejs.welsh": "Welsh", "mejs.yiddish": "Yiddish" } };
+        var mejsL10n = {
+            "language": "en",
+            "strings": {
+                "mejs.download-file": "Download File",
+                "mejs.install-flash": "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/",
+                "mejs.fullscreen": "Fullscreen",
+                "mejs.play": "Play",
+                "mejs.pause": "Pause",
+                "mejs.time-slider": "Time Slider",
+                "mejs.time-help-text": "Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.",
+                "mejs.live-broadcast": "Live Broadcast",
+                "mejs.volume-help-text": "Use Up\/Down Arrow keys to increase or decrease volume.",
+                "mejs.unmute": "Unmute",
+                "mejs.mute": "Mute",
+                "mejs.volume-slider": "Volume Slider",
+                "mejs.video-player": "Video Player",
+                "mejs.audio-player": "Audio Player",
+                "mejs.captions-subtitles": "Captions\/Subtitles",
+                "mejs.captions-chapters": "Chapters",
+                "mejs.none": "None",
+                "mejs.afrikaans": "Afrikaans",
+                "mejs.albanian": "Albanian",
+                "mejs.arabic": "Arabic",
+                "mejs.belarusian": "Belarusian",
+                "mejs.bulgarian": "Bulgarian",
+                "mejs.catalan": "Catalan",
+                "mejs.chinese": "Chinese",
+                "mejs.chinese-simplified": "Chinese (Simplified)",
+                "mejs.chinese-traditional": "Chinese (Traditional)",
+                "mejs.croatian": "Croatian",
+                "mejs.czech": "Czech",
+                "mejs.danish": "Danish",
+                "mejs.dutch": "Dutch",
+                "mejs.english": "English",
+                "mejs.estonian": "Estonian",
+                "mejs.filipino": "Filipino",
+                "mejs.finnish": "Finnish",
+                "mejs.french": "French",
+                "mejs.galician": "Galician",
+                "mejs.german": "German",
+                "mejs.greek": "Greek",
+                "mejs.haitian-creole": "Haitian Creole",
+                "mejs.hebrew": "Hebrew",
+                "mejs.hindi": "Hindi",
+                "mejs.hungarian": "Hungarian",
+                "mejs.icelandic": "Icelandic",
+                "mejs.indonesian": "Indonesian",
+                "mejs.irish": "Irish",
+                "mejs.italian": "Italian",
+                "mejs.japanese": "Japanese",
+                "mejs.korean": "Korean",
+                "mejs.latvian": "Latvian",
+                "mejs.lithuanian": "Lithuanian",
+                "mejs.macedonian": "Macedonian",
+                "mejs.malay": "Malay",
+                "mejs.maltese": "Maltese",
+                "mejs.norwegian": "Norwegian",
+                "mejs.persian": "Persian",
+                "mejs.polish": "Polish",
+                "mejs.portuguese": "Portuguese",
+                "mejs.romanian": "Romanian",
+                "mejs.russian": "Russian",
+                "mejs.serbian": "Serbian",
+                "mejs.slovak": "Slovak",
+                "mejs.slovenian": "Slovenian",
+                "mejs.spanish": "Spanish",
+                "mejs.swahili": "Swahili",
+                "mejs.swedish": "Swedish",
+                "mejs.tagalog": "Tagalog",
+                "mejs.thai": "Thai",
+                "mejs.turkish": "Turkish",
+                "mejs.ukrainian": "Ukrainian",
+                "mejs.vietnamese": "Vietnamese",
+                "mejs.welsh": "Welsh",
+                "mejs.yiddish": "Yiddish"
+            }
+        };
     </script>
     <script type='text/javascript'
         src='https://lilo.qodeinteractive.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.16'
@@ -3806,8 +4244,12 @@
         id='mediaelement-migrate-js'></script>
     <script type='text/javascript' id='mediaelement-js-extra'>
         /* <![CDATA[ */
-        var _wpmejsSettings = { "pluginPath": "\/wp-includes\/js\/mediaelement\/", "classPrefix": "mejs-", "stretching": "responsive" };
-/* ]]> */
+        var _wpmejsSettings = {
+            "pluginPath": "\/wp-includes\/js\/mediaelement\/",
+            "classPrefix": "mejs-",
+            "stretching": "responsive"
+        };
+        /* ]]> */
     </script>
     <script type='text/javascript'
         src='https://lilo.qodeinteractive.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.0.3'
@@ -3888,9 +4330,28 @@
         id='lilo-mikado-google-map-api-js'></script>
     <script type='text/javascript' id='lilo-mikado-modules-js-extra'>
         /* <![CDATA[ */
-        var mkdfGlobalVars = { "vars": { "mkdfAddForAdminBar": 0, "mkdfElementAppearAmount": -100, "mkdfAjaxUrl": "https:\/\/lilo.qodeinteractive.com\/wp-admin\/admin-ajax.php", "mkdfStickyHeaderHeight": 0, "mkdfStickyHeaderTransparencyHeight": 70, "mkdfTopBarHeight": 0, "mkdfLogoAreaHeight": 0, "mkdfMenuAreaHeight": 100, "mkdfMobileHeaderHeight": 70 } };
-        var mkdfPerPageVars = { "vars": { "mkdfMobileHeaderHeight": 70, "mkdfStickyScrollAmount": 1100, "mkdfHeaderTransparencyHeight": 0, "mkdfHeaderVerticalWidth": 0 } };
-/* ]]> */
+        var mkdfGlobalVars = {
+            "vars": {
+                "mkdfAddForAdminBar": 0,
+                "mkdfElementAppearAmount": -100,
+                "mkdfAjaxUrl": "https:\/\/lilo.qodeinteractive.com\/wp-admin\/admin-ajax.php",
+                "mkdfStickyHeaderHeight": 0,
+                "mkdfStickyHeaderTransparencyHeight": 70,
+                "mkdfTopBarHeight": 0,
+                "mkdfLogoAreaHeight": 0,
+                "mkdfMenuAreaHeight": 100,
+                "mkdfMobileHeaderHeight": 70
+            }
+        };
+        var mkdfPerPageVars = {
+            "vars": {
+                "mkdfMobileHeaderHeight": 70,
+                "mkdfStickyScrollAmount": 1100,
+                "mkdfHeaderTransparencyHeight": 0,
+                "mkdfHeaderVerticalWidth": 0
+            }
+        };
+        /* ]]> */
     </script>
     <script type='text/javascript'
         src='https://lilo.qodeinteractive.com/wp-content/themes/lilo/assets/js/modules.min.js?ver=6.0.3'
@@ -3906,11 +4367,22 @@
         if (window.RS_MODULES === undefined) window.RS_MODULES = {};
         if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
         RS_MODULES.modules["revslider11"] = {
-            once: RS_MODULES.modules["revslider11"] !== undefined ? RS_MODULES.modules["revslider11"].once : undefined, init: function () {
-                window.revapi1 = window.revapi1 === undefined || window.revapi1 === null || window.revapi1.length === 0 ? document.getElementById("rev_slider_1_1") : window.revapi1;
-                if (window.revapi1 === null || window.revapi1 === undefined || window.revapi1.length == 0) { window.revapi1initTry = window.revapi1initTry === undefined ? 0 : window.revapi1initTry + 1; if (window.revapi1initTry < 20) requestAnimationFrame(function () { RS_MODULES.modules["revslider11"].init() }); return; }
+            once: RS_MODULES.modules["revslider11"] !== undefined ? RS_MODULES.modules["revslider11"].once : undefined,
+            init: function() {
+                window.revapi1 = window.revapi1 === undefined || window.revapi1 === null || window.revapi1
+                    .length === 0 ? document.getElementById("rev_slider_1_1") : window.revapi1;
+                if (window.revapi1 === null || window.revapi1 === undefined || window.revapi1.length == 0) {
+                    window.revapi1initTry = window.revapi1initTry === undefined ? 0 : window.revapi1initTry + 1;
+                    if (window.revapi1initTry < 20) requestAnimationFrame(function() {
+                        RS_MODULES.modules["revslider11"].init()
+                    });
+                    return;
+                }
                 window.revapi1 = jQuery(window.revapi1);
-                if (window.revapi1.revolution == undefined) { revslider_showDoubleJqueryError("rev_slider_1_1"); return; }
+                if (window.revapi1.revolution == undefined) {
+                    revslider_showDoubleJqueryError("rev_slider_1_1");
+                    return;
+                }
                 revapi1.revolutionInit({
                     revapi: "revapi1",
                     sliderLayout: "fullwidth",
@@ -3922,7 +4394,9 @@
                     spinner: "spinner2",
                     perspectiveType: "local",
                     responsiveLevels: "1920,1700,1025,480",
-                    progressBar: { disableProgressBar: true },
+                    progressBar: {
+                        disableProgressBar: true
+                    },
                     navigation: {
                         mouseScrollNavigation: false,
                         onHoverStop: false,
@@ -3964,11 +4438,22 @@
         if (window.RS_MODULES === undefined) window.RS_MODULES = {};
         if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
         RS_MODULES.modules["revslider52"] = {
-            once: RS_MODULES.modules["revslider52"] !== undefined ? RS_MODULES.modules["revslider52"].once : undefined, init: function () {
-                window.revapi5 = window.revapi5 === undefined || window.revapi5 === null || window.revapi5.length === 0 ? document.getElementById("rev_slider_5_2") : window.revapi5;
-                if (window.revapi5 === null || window.revapi5 === undefined || window.revapi5.length == 0) { window.revapi5initTry = window.revapi5initTry === undefined ? 0 : window.revapi5initTry + 1; if (window.revapi5initTry < 20) requestAnimationFrame(function () { RS_MODULES.modules["revslider52"].init() }); return; }
+            once: RS_MODULES.modules["revslider52"] !== undefined ? RS_MODULES.modules["revslider52"].once : undefined,
+            init: function() {
+                window.revapi5 = window.revapi5 === undefined || window.revapi5 === null || window.revapi5
+                    .length === 0 ? document.getElementById("rev_slider_5_2") : window.revapi5;
+                if (window.revapi5 === null || window.revapi5 === undefined || window.revapi5.length == 0) {
+                    window.revapi5initTry = window.revapi5initTry === undefined ? 0 : window.revapi5initTry + 1;
+                    if (window.revapi5initTry < 20) requestAnimationFrame(function() {
+                        RS_MODULES.modules["revslider52"].init()
+                    });
+                    return;
+                }
                 window.revapi5 = jQuery(window.revapi5);
-                if (window.revapi5.revolution == undefined) { revslider_showDoubleJqueryError("rev_slider_5_2"); return; }
+                if (window.revapi5.revolution == undefined) {
+                    revslider_showDoubleJqueryError("rev_slider_5_2");
+                    return;
+                }
                 revapi5.revolutionInit({
                     revapi: "revapi5",
                     sliderLayout: "fullwidth",
@@ -3980,7 +4465,9 @@
                     spinner: "spinner2",
                     perspectiveType: "local",
                     responsiveLevels: "1920,1700,1025,480",
-                    progressBar: { disableProgressBar: true },
+                    progressBar: {
+                        disableProgressBar: true
+                    },
                     navigation: {
                         onHoverStop: false
                     },
@@ -3998,7 +4485,9 @@
             }
         } // End of RevInitScript
 
-        if (window.RS_MODULES.checkMinimal !== undefined) { window.RS_MODULES.checkMinimal(); };
+        if (window.RS_MODULES.checkMinimal !== undefined) {
+            window.RS_MODULES.checkMinimal();
+        };
     </script>
 </body>
 

@@ -2393,8 +2393,8 @@
                                                                 <div class="mkdf-comment-text">
                                                                     <div class="mkdf-comment-info">
                                                                         <h6 class="mkdf-comment-name vcard">
-                                                                            marie_sims </h6>
-                                                                        <div class="mkdf-comment-date">May 25, 2018
+                                                                            Admin post </h6>
+                                                                        <div class="mkdf-comment-date">Day the post and res
                                                                         </div>
                                                                     </div>
                                                                     <div class="mkdf-text-holder" id="comment-20">
@@ -2410,7 +2410,7 @@
                                                                         data-belowelement="comment-20"
                                                                         data-respondelement="respond"
                                                                         data-replyto="Reply to marie_sims"
-                                                                        aria-label='Reply to marie_sims'>Reply</a>
+                                                                        aria-label='Reply to marie_sims'>Reply the user</a>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -2513,21 +2513,19 @@
                                             </div>
                                             <ul>
                                                 <li class="cat-item cat-item-21"><a
-                                                        href="https://lilo.qodeinteractive.com/category/babysitting/baby-shower/">Baby
-                                                        Shower</a>
+                                                        href="https://lilo.qodeinteractive.com/category/babysitting/baby-shower/">General Tips</a>
                                                 </li>
                                                 <li class="cat-item cat-item-17"><a
-                                                        href="https://lilo.qodeinteractive.com/category/babysitting/">Babysitting</a>
+                                                        href="https://lilo.qodeinteractive.com/category/babysitting/">education</a>
                                                 </li>
                                                 <li class="cat-item cat-item-20"><a
-                                                        href="https://lilo.qodeinteractive.com/category/babysitting/child-care/">Child
-                                                        Care</a>
+                                                        href="https://lilo.qodeinteractive.com/category/babysitting/child-care/">Psychological Health</a>
                                                 </li>
                                                 <li class="cat-item cat-item-19"><a
-                                                        href="https://lilo.qodeinteractive.com/category/babysitting/kids/">Kids</a>
+                                                        href="https://lilo.qodeinteractive.com/category/babysitting/kids/">Dealing methods</a>
                                                 </li>
                                                 <li class="cat-item cat-item-18"><a
-                                                        href="https://lilo.qodeinteractive.com/category/babysitting/nurturing/">Nurturing</a>
+                                                        href="https://lilo.qodeinteractive.com/category/babysitting/nurturing/">Motivation</a>
                                                 </li>
                                             </ul>
                                         </div>

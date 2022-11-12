@@ -1982,12 +1982,12 @@
             </a>
             <div class="mkdf-content">
                 <div class="mkdf-content-inner">
-                    <div class="mkdf-title-holder mkdf-standard-with-breadcrumbs-type mkdf-title-va-header-bottom mkdf-title-content-va-middle mkdf-preload-background mkdf-has-bg-image mkdf-bg-parallax"
-                        style="height: 400px;background-image:url(https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/about-title-img.jpg);"
-                        data-height="400">
+                    <div class="mkdf-title-holder mkdf-standard-with-breadcrumbs-type mkdf-title-va-header-bottom mkdf-title-content-va-middle mkdf-preload-background mkdf-has-image mkdf-parallax"
+                        style="background-image:url(https://i.pinimg.com/564x/8f/a0/e7/8fa0e7fb148eb5dab8a24370460eb684.jpg); background-size:cover ; background-attatchment:10px "
+                        data-height="100px">
                         <div class="mkdf-title-image">
                             <img itemprop="image"
-                                src="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/about-title-img.jpg"
+                                src=""
                                 alt="b" />
                         </div>
                         <div class="mkdf-title-wrapper" style="height: 400px">
@@ -2001,7 +2001,7 @@
                                     <div class="mkdf-breadcrumbs-info">
                                         <div class="mkdf-breadcrumbs-holder">
                                             <div itemprop="breadcrumb" class="mkdf-breadcrumbs "><a itemprop="url"
-                                                    href="https://lilo.qodeinteractive.com/">Home</a><span
+                                                    href="index">Home</a><span
                                                     class="mkdf-delimiter">&nbsp; &gt; &nbsp;</span><span
                                                     class="mkdf-current">About Us</span></div>
                                         </div>
@@ -2010,6 +2010,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <br><br>
                     <div class="mkdf-full-width">
                         <div class="mkdf-full-width-inner">
                             <div class="mkdf-grid-row">
@@ -2250,7 +2252,7 @@
                                                                                             sizes="(max-width: 800px) 100vw, 800px" />
                                                                                     </div>
                                                                                     <a class="mkdf-video-button-play"
-                                                                                        href="https://vimeo.com/59932547"
+                                                                                        href="https://vimeo.com/27244727"
                                                                                         target="_self"
                                                                                         data-rel="prettyPhoto[video_button_pretty_photo_977]">
                                                                                         <span
@@ -2288,16 +2290,10 @@
                                                                                     class="mkdf-section-title-holder   mkdf-st-subtitle-pos-under">
                                                                                     <div class="mkdf-st-inner">
                                                                                         <h1 class="mkdf-st-title">
-                                                                                            Daycare is Great...<br />
-                                                                                            Kids Make it Special. </h1>
+                                                                                            Make your child's education fun </h1>
                                                                                         <p class="mkdf-st-text"
                                                                                             style="margin-top: 26px">
-                                                                                            Lorem ipsum dolor sit amet,
-                                                                                            consectetuer adipiscing elit
-                                                                                            nean commodo ligula eget
-                                                                                            dolor. Aenean massa. Cum
-                                                                                            sociis Theme natoque
-                                                                                            penatibus et magnis dis.
+                                                                                           Enjoy learning, reading the newest stories, choosing the best teachers and sharing your experience
                                                                                         </p>
                                                                                     </div>
                                                                                 </div>
@@ -2335,13 +2331,10 @@
                                                                     style="padding: 0 0 10px 0 10px;text-align: center">
                                                                     <div class="mkdf-st-inner">
                                                                         <h1 class="mkdf-st-title">
-                                                                            Our Babysitters </h1>
+                                                                            Our Teacher </h1>
                                                                         <p class="mkdf-st-text"
                                                                             style="margin-top: 22px">
-                                                                            Aenean sollicitudin, lorem auci elit
-                                                                            consequat ipsutissem niuis sed odio sit amet
-                                                                            nibh dictum vulputate cursus a sit amet
-                                                                            ultricies augue. </p>
+                                                                           All our teachers for different subjects and activities are currently available.. </p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="vc_empty_space" style="height: 56px"><span
@@ -2373,16 +2366,16 @@
                                                                                     srcset="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-1.jpg 800w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-1-300x188.jpg 300w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-1-768x480.jpg 768w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-1-350x219.jpg 350w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-1-500x313.jpg 500w"
                                                                                     sizes="(max-width: 800px) 100vw, 800px" />
                                                                                 <span
-                                                                                    class="mkdf-team-position">Full-time
-                                                                                    Babysitter</span>
+                                                                                    class="mkdf-team-position">
+                                                                                    User time</span>
                                                                             </div>
                                                                         </a>
                                                                         <div class="mkdf-team-info">
                                                                             <a itemprop="url"
                                                                                 href="https://lilo.qodeinteractive.com/team-single/"
                                                                                 target="_self">
-                                                                                <h5 class="mkdf-team-name">Margaret
-                                                                                    Burke</h5>
+                                                                                <h5 class="mkdf-team-name">User namet
+                                                                                    </h5>
                                                                             </a>
                                                                             <p class="mkdf-team-text">Lorem ipsum dolor
                                                                                 sit ain, consece iner adipicing elit
@@ -2472,15 +2465,14 @@
                                                                                     srcset="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-2.jpg 800w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-2-300x188.jpg 300w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-2-768x480.jpg 768w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-2-350x219.jpg 350w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-2-500x313.jpg 500w"
                                                                                     sizes="(max-width: 800px) 100vw, 800px" />
                                                                                 <span class="mkdf-team-position"
-                                                                                    style="background-color: #9ad8d3">Full-time
-                                                                                    Nanny</span>
+                                                                                    style="background-color: #9ad8d3">User time</span>
                                                                             </div>
                                                                         </a>
                                                                         <div class="mkdf-team-info">
                                                                             <a itemprop="url"
                                                                                 href="https://lilo.qodeinteractive.com/team-single/"
                                                                                 target="_self">
-                                                                                <h5 class="mkdf-team-name">Arthur Gibson
+                                                                                <h5 class="mkdf-team-name">User name
                                                                                 </h5>
                                                                             </a>
                                                                             <p class="mkdf-team-text">Lorem ipsum dolor
@@ -2571,16 +2563,14 @@
                                                                                     srcset="https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-3.jpg 800w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-3-300x188.jpg 300w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-3-768x480.jpg 768w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-3-350x219.jpg 350w, https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/team-img-3-500x313.jpg 500w"
                                                                                     sizes="(max-width: 800px) 100vw, 800px" />
                                                                                 <span class="mkdf-team-position"
-                                                                                    style="background-color: #dce086">Full-time
-                                                                                    Babysitter</span>
+                                                                                    style="background-color: #dce086">User time</span>
                                                                             </div>
                                                                         </a>
                                                                         <div class="mkdf-team-info">
                                                                             <a itemprop="url"
                                                                                 href="https://lilo.qodeinteractive.com/team-single/"
                                                                                 target="_self">
-                                                                                <h5 class="mkdf-team-name">Patricia
-                                                                                    McCoy</h5>
+                                                                                <h5 class="mkdf-team-name">User name</h5>
                                                                             </a>
                                                                             <p class="mkdf-team-text">Lorem ipsum dolor
                                                                                 sit ain, consece iner adipicing elit
